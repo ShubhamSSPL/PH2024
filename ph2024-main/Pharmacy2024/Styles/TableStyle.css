@@ -1,0 +1,248 @@
+﻿    form 
+    {
+        margin:0 20px;
+        padding: 20px;
+    }
+    center 
+    {
+         margin:10px;
+    }
+    .table 
+    {
+        padding:0 20px;
+        
+    }
+    
+    .table td 
+    {
+        padding:.37em;
+         font-size:14px;
+             border: 1px solid #6d7fcc;
+    }
+      .DataGrid td 
+    {
+        padding:.37em;
+         font-size:15px;
+             border: 1px solid #6d7fcc;
+    }
+        .DataGridtd 
+    {
+        padding:.37em;
+         font-size:15px;
+             border: 1px solid #6d7fcc;
+    }
+    
+    .DataGrid th
+    {
+         padding:.40em;
+         font-size:16px;
+ background: #6d7fcc;
+         color:White;
+             border: 1px solid #bdc2da;
+             font-weight:normal;
+             text-align:center;
+    }
+    .table th 
+    {
+        padding:.40em;
+         font-size:16px;
+ background: #6d7fcc;
+         color:White;
+             border: 1px solid #bdc2da;
+             font-weight:normal;
+             text-align:center;
+    }
+       .table tr:last-child  
+    {
+        background-color: #f4f5fc;
+        font-weight:bold;
+    }
+      .DataGrid tr:last-child td 
+    {
+     
+        font-weight:bold;
+    }
+     .DataGrid tr:last-child  
+    {
+        background-color: #f4f5fc;
+    }
+      .table4  th:first-child 
+      {
+          width:70%;
+      }
+        .table7  th:first-child 
+      {
+          width:70%;
+      }
+      
+      .InputButton 
+   {
+       color:White ;
+       border-radius:20px;
+      padding: .4rem .80rem;
+      font-size:16px;
+      border:2px solid #5CB85C;
+   }
+        .table4 
+    {
+        width:50% ;
+    }
+   @media only screen and (max-width:767px) 
+   {
+            .table4 
+    {
+        width:100% ;
+    }
+          form 
+    {
+        margin:0 10px;
+        padding: 0px;
+    }
+        .table td 
+        {
+       
+        display: block;
+        text-align: right;
+        width:auto;
+        border: 1px solid #dee2e6;
+        }
+        
+        .table tr {
+        border: 1px solid gray;
+    }
+         .table tr:last-child:before {
+        content:"Grand-Total";
+              padding:.40em;
+         font-size:17px;
+ background: #6d7fcc;
+ width:100%;
+ color:White;
+    }
+    
+    .table th {
+        border: none;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+        color:White;
+    }
+     .table td::before {
+        float: left;
+        text-align:left;
+        font-weight: bold;
+        
+    }
+  
+    .table tr:last-child  td:nth-of-type(1):before
+    {
+        content:"";
+    }
+    .table tr:last-child  td:nth-of-type(1)
+    {
+     display:none;
+    }
+  
+  /*  .table1 tr:last-child  td:nth-of-type(2):before 
+    {
+         content:"Total Confirmed at SCs";
+    }
+   
+   .table1  td:nth-of-type(1):before {
+        content: "Application Status";
+    }
+
+    .table1  td:nth-of-type(2):before {
+        content: "Total";
+    }
+*/
+
+         .table2  td:nth-of-type(1):before {
+        content: "CVC/TVC Status";
+    }
+
+    .table2  td:nth-of-type(2):before {
+        content: "SC";
+    }
+     .table2  td:nth-of-type(3):before {
+        content: "ST";
+    }
+     .table2  td:nth-of-type(4):before {
+        content: "DT/VJ";
+    }
+     .table2  td:nth-of-type(5):before {
+        content: "NT-B";
+    }
+     .table2  td:nth-of-type(6):before {
+        content: "NT-C";
+    }
+     .table2  td:nth-of-type(7):before {
+        content: "NT-D";
+    }
+       .table2  td:nth-of-type(8):before {
+        content: "OBC";
+    }
+       .table2  td:nth-of-type(9):before {
+        content: "SBC";
+    }
+       .table2  td:nth-of-type(10):before {
+        content: "SEBC";
+    }
+       .table2  td:nth-of-type(11):before {
+        content: "Total";
+    }
+    
+       .table3  td:nth-of-type(1):before {
+        content: "NCL Satus";
+    }
+
+    .table3  td:nth-of-type(2):before {
+        content: "DT/VJ";
+    }
+          .table3  td:nth-of-type(3):before {
+        content: "NT-B";
+    }
+
+    .table3  td:nth-of-type(4):before {
+        content: "NT-C";
+    }
+          .table3  td:nth-of-type(5):before {
+        content: "NT-D";
+    }
+
+    .table3  td:nth-of-type(6):before {
+        content: "OBC";
+    }
+          .table3  td:nth-of-type(7):before {
+        content: "SBC";
+    }
+
+    .table3  td:nth-of-type(8):before {
+        content: "SEBC";
+    }
+          .table3  td:nth-of-type(9):before {
+        content: "Total";
+    }
+
+   /*
+          .table4  td:nth-of-type(1):before {
+        content: "Category";
+    }
+
+    .table4  td:nth-of-type(2):before {
+        content: "Total";
+    }
+*/
+          
+    .InputButton 
+    {
+        width:100%;
+        font-size:14px;
+        
+    }
+   }
+
+   

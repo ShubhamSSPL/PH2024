@@ -1,0 +1,241 @@
+﻿body
+{
+	margin:0px;
+	padding:0px;
+	font-size:10px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#000000;
+}
+.AppFormTable
+{
+	width:100%;
+	padding:0 1px;
+	font-size:10px;
+	font-family: Verdana;
+	letter-spacing:0.04em;
+	/*font-weight:bold;*/
+	border:0px solid #000000;/*Border Color*/
+	background-color:#FFFFFF;/*Background Color*/
+	color:#000000;/*Font Color*/
+	border-collapse:collapse;
+	border-width:0 1px 1px 0;
+}
+.AppFormTable td
+{
+	border:0px solid #000000;
+	border-width:1px 0 0 1px;
+	padding:1px;
+	font-family: Verdana;
+	font-size:9px;
+}
+.AppFormTable th
+{	
+	font-family: Verdana;
+	font-size:10px;
+	font-weight:bold;
+	color:#000000;
+	border:0px solid #000000;
+	border-width:1px 0 0 1px;
+	padding:1px;
+	letter-spacing:0.04em;
+	background-color:#d8d8d8;
+}
+.AppFormTableWithOutBorder
+{
+	width:100%;
+	padding:0 1px;
+	font-size:10px;
+	font-family: Verdana;
+	letter-spacing:0.04em;
+	/*font-weight:bold;*/
+	border:0px solid #000000;/*Border Color*/
+	background-color:#FFFFFF;/*Background Color*/
+	color:#000000;/*Font Color*/
+	border-collapse:collapse;
+	border-width:0 0 0 0;
+}
+.AppFormTableWithOutBorder td
+{
+	border:0px solid #000000;
+	border-width:0 0 0 0;
+	padding:1px;
+	font-family: Verdana;
+	font-size:10px;
+}
+.AppFormTableWithOutBorder th
+{	
+	font:10px solid Verdana;
+	font-weight:bold;
+	color:#000000;
+	border:0px solid #000000;
+	border-width:0 0 0 0;
+	padding:1px;
+	letter-spacing:0.04em;
+	background-color:#d8d8d8;
+}
+.DataGrid
+{
+	color: #000000;
+	border: 1px solid #000000;
+	background-color: #ffffff;
+	font-family: verdana;
+	text-align: left;
+	padding: 1px;
+	border-bottom-width: 0;
+	border-right-width: 0;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+.DataGrid .Header
+{
+	background-color: #d8d8d8;
+	color: #000000;
+	font-weight: bold;
+}
+.DataGrid .Footer
+{
+	background-color: #d8d8d8;
+	color: #000000;
+	font-weight: bold;
+}
+.DataGrid .Item
+{
+	color: #000000;
+}
+.DataGrid td
+{	
+	border:1px solid #000000;
+	border-left-width:0;
+	border-top-width:0;
+	font-size:10px;
+	color: #000000;
+	font-family:Verdana, Arial, Century;
+}
+
+.DataGrid th
+{
+	font-size: 10px;
+	background-color: #d8d8d8;
+	color: #000000;
+	letter-spacing: 0.03em;
+	border:1px solid #000000;
+	border-left-width:0;
+	font-family:Verdana, Arial, Century;
+	border-top-width:0;
+	text-align:center; font-weight:normal; 
+	font-weight:bold;
+}
+.LabelClass
+{
+	font-size:11px;
+	font-family:Verdana;
+	color:#000000;
+}
+.InputButton
+{
+   font-size:11px;
+   font-family:Verdana,sans-serif;
+   color:#FFFFFF;
+   font-weight:bold;
+   background-color:#1690bf;
+   border-top-style:solid;
+   border-top-color:#005575;
+   border-top-width:1px;
+   border-bottom-style:solid;
+   border-bottom-color:#005575;
+   border-bottom-width:1px;
+   border-left-style:solid;
+   border-left-color:#005575;
+   border-left-width:10px;
+   border-right-style:solid;
+   border-right-color:#005575;
+   border-right-width:1px;
+}
+.AppFormTableWithAllBorder
+{
+	width:100%;
+	padding:0 2px;
+	font-size:10px;
+	font-family: Verdana;
+	letter-spacing:0.04em;
+	/*font-weight:bold;*/
+	border:0px solid #000000;/*Border Color*/
+	background-color:#FFFFFF;/*Background Color*/
+	color:#000000;/*Font Color*/
+	border-collapse:collapse;
+	border-width:1px 1px 1px 1px;
+}
+.AppFormTableWithAllBorder td
+{
+	border:0px solid #000000;
+	border-width:1px 0 0 1px;
+	padding:2px;
+	font-size:10px;
+}
+.AppFormTableWithAllBorder th
+{
+	font:10px solid Verdana;
+	font-weight:bold;
+	color:Black;
+	border:1px solid #000000;
+	border-width: 1px 0 0 1px;
+	padding:2px;
+	letter-spacing:0.04em;
+	background-color:#d8d8d8;
+}
+*{
+	margin:0px;
+	padding:0px;
+}
+.list-text li {
+  margin-left: 22px;
+  padding-left: 0;
+  font-size:10px;
+    font-family: Verdana;
+}
+.AppFormTableNew
+{
+	width:100%;
+	padding:0 6px;
+	font-size:11px;
+	font-family: Verdana;
+	letter-spacing:0.04em;
+	/*font-weight:bold;*/
+	border:0px solid #000000;/*Border Color*/
+	background-color:#FFFFFF;/*Background Color*/
+	color:#000000;/*Font Color*/
+	border-collapse:collapse;
+	border-width:0 1px 1px 0;
+}
+.AppFormTableNew td
+{
+	border:0px solid #000000;
+	border-width:1px 0 0 1px;
+	padding:6px;
+	font-family: Verdana;
+	font-size:11px;
+}
+.AppFormTableNew th
+{	
+	font-family: Verdana;
+	font-size:11px;
+	font-weight:bold;
+	color:#000000;
+	border:0px solid #000000;
+	border-width:1px 0 0 1px;
+	padding:6px;
+	letter-spacing:0.04em;
+	background-color:#d8d8d8;
+}
+@font-face
+{
+    font-family: 'WebRupee';
+    src: url('Fonts/WebRupee.V2.0.eot');
+    src: local('WebRupee'), url('Fonts/WebRupee.V2.0.ttf') format('truetype'),  url('Fonts/WebRupee.V2.0.woff') format('woff'), url('Fonts/WebRupee.V2.0.svg') format('svg'); 
+    font-weight:normal; 
+    font-style:normal;
+}
+.rupee
+{
+    font-family: 'WebRupee';
+}

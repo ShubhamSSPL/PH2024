@@ -1,0 +1,250 @@
+﻿@font-face
+{
+    font-family: 'Roboto';
+    src: url('../Fonts/Roboto/RobotoCondensed-Regular.ttf');
+}
+@media print
+{
+    thead
+    {
+        display: table-header-group;
+    }
+}
+body
+{
+    margin-top: 0px;
+}
+table
+{
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+tr
+{
+    page-break-inside: avoid;
+}
+body
+{
+    overflow: visible;
+}
+td, th, .LastModifiedOnDiv, .spCandidateCount, .lblCandidateCount, a, legend, .button, .ReportSelectionControl, .ReportSelectionControl label, .CandidateCountInfo th, .CandidateCountInfo td
+{
+}
+table
+{
+    page-break-inside: auto;
+    width: 100%;
+}
+.button
+{
+    background: #0370ea;
+    background: -moz-linear-gradient(top,#008dfd 0,#0370ea 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#008dfd),color-stop(100%,#0370ea));
+    background: -webkit-linear-gradient(top,#008dfd 0,#0370ea 100%);
+    background: -o-linear-gradient(top,#008dfd 0,#0370ea 100%);
+    background: -ms-linear-gradient(top,#008dfd 0,#0370ea 100%);
+    background: linear-gradient(top,#008dfd 0,#0370ea 100%);
+    border: 1px solid #076bd2;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #fff !important;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.3;
+    padding: 8px 25px;
+    text-align: center;
+    text-decoration: none !important;
+    text-shadow: 1px 1px 1px #076bd2;
+    width: 50%;
+    margin-bottom: 4%;
+}
+
+.button:hover
+{
+    background: -moz - linear - gradient(top,  # 008dfd 30 % ,  # 0370ea 100 % );
+    background: -webkit - gradient(linear, left top, left bottom, color - stop(30 % ,  # 008dfd), color - stop(100 % ,  # 0370ea));
+    background: -webkit - linear - gradient(top,  # 008dfd 30 % ,  # 0370ea 100 % );
+    background: -o - linear - gradient(top,  # 008dfd 30 % ,  # 0370ea 100 % );
+    background: -ms - linear - gradient(top,  # 008dfd 30 % ,  # 0370ea 100 % );
+    background: linear - gradient(top,  # 008dfd 30 % ,  # 0370ea 100 % );
+    cursor: pointer;
+}
+
+fieldset
+{
+    border: 1px solid green;
+}
+
+legend
+{
+    padding: 0.2em 0.5em;
+    border: 1px solid green;
+    color: green;
+    font-size: 15px;
+    text-align: left;
+    padding: 10px;
+    margin-left: 5%;
+}
+th
+{
+    word-wrap: break-word;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    padding-top: 0.6%;
+    padding-bottom: 0.6%;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    background: #FF9292;
+    color: black;
+    font-weight: bold;
+}
+td
+{
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid #BEBEBE;
+    border-spacing: 0px;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+.ReportSelectionControl
+{
+    margin-left: 40%;
+    font-size: 15px;
+}
+.lblCandidateCount
+{
+    white-space: nowrap;
+    font-size: 15px;
+    width: 50%;
+}
+.rbnControl
+{
+    margin-top: 3%;
+    vertical-align: middle;
+}
+
+.btnGenerate
+{
+    margin-top: 2%;
+    margin-left: -3%;
+}
+
+.rbnControl label
+{
+    padding-left: 5%;
+}
+
+.CandidateCountInfo
+{
+    margin-left: 24%;
+}
+
+tr
+{
+    border-collapse: collapse;
+}
+
+tr:nth-of-type(odd)
+{
+    background: #eee;
+}
+
+
+
+.alert-box
+{
+    color: #555;
+    border-radius: 5px;
+    font-family: Roboto, "Roboto" ,Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 10px 10px 10px 36px;
+    margin: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    behavior: url(../css/pie.htc);
+}
+.alert-box span
+{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.error
+{
+    background: #ffecec url('../Images/1420553413_678069-sign-error-16.png') no-repeat 10px 50%;
+    border: 1px solid #f5aca6;
+}
+.alert
+{
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    display: none;
+    margin: 2% 2%;
+}
+.alert-success
+{
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+b, strong
+{
+    font-weight: 700;
+}
+.PDFVersionDownload
+{
+    background: url("../Images/icons.png") no-repeat;
+    background-position: 0 -320px;
+    display: block;
+    width: 30px;
+    height: 35px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+.ExcelVersionDownload
+{
+    background: url("../Images/icons.png") no-repeat;
+    background-position: 0 -246px;
+    display: block;
+    width: 30px;
+    height: 35px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+.MeritListTypeSelection, .CandidateDataDownLoad, .fsMeritList
+{
+    margin-top: 3%;
+}
+.LastModifiedOnDiv
+{
+    margin: 5% 29% -3%;
+    font-weight: bold;
+    font-size: 15px;
+}
+.page
+{
+    page-break-before: none;
+    page-break-after: none;
+    page-break-inside: avoid;
+}
+@page
+{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+@media print
+{
+    .page
+    {
+        page-break-before: always;
+    }
+}

@@ -1,0 +1,48 @@
+﻿.Instruction-list
+{
+    border-color: Gray;
+    border-style: dashed;
+    padding-left:15px
+}
+.Instruction-list span
+{
+    font-size: 20px;
+    font-family: Verdana;
+    font-weight: bold;
+    color: Red;
+}
+.Instruction-list li
+{
+    margin-left: 22px;
+    padding-left: 0;
+    font-size: 11px;
+    font-family: Verdana;
+    color: red;
+}
+.Instruction-list p
+{
+    color: Red;
+    text-align: justify;
+    font-size: 13px;
+    font-family: Verdana;
+    color: red;
+}
+
+.myCheckBoxList input
+{
+    padding-left: 10px;
+    width: 15px;
+}
+.myCheckBoxList label
+{
+    padding-left: 5px;
+    padding-right: 20px;
+}
+.myShortListed
+{
+    background-color: rgb(0, 55, 128);
+    border-radius: 45px;
+    color: White;
+    cursor: pointer;
+    display: block;
+}

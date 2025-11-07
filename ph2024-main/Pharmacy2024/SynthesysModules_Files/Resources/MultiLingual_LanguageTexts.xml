@@ -1,0 +1,740 @@
+<?xml version="1.0"?>
+<Root>
+  <Language name="Hindi">
+    <Page name="commonlanguagetexts">
+    </Page>
+  </Language>
+  <Language name="Marathi">
+    <Page name="commonlanguagetexts">
+      <data key="G1" value="टीप : " />
+      <data key="G3" value="अधिसूचना" />
+      <data key="G5" value="डाउनलोड" />
+      <data key="G6" value="लॉग इन" />
+      <data key="G9" value="प्रमुख पान" />
+      <data key="G10" value="ऑनलाइन अर्ज" />
+      <data key="D1" value="अर्जदार" />
+      <data key="D3" value="महाविद्यालय" />
+      <data key="D5" value="ए. आर. सी." />
+      <data key="ChangeLanguage" value="भाषा बदला" />
+      <data key="ChangeTheme" value="थीम बदला" />
+      <data key="Welcome" value="स्वागत" />
+      <data key="LogOut" value="लॉग आउट" />
+      <data key="footer_ContactUs" value="संपर्क" />
+      <data key="footer_Feedback" value="प्रतिक्रिया" />
+      <data key="footer_FAQs" value="वारंवार उपस्थित होणारे प्रश्न" />
+      <data key="footer_SiteManagedBy" value="" />
+      <data key="footer_Home" value="प्रमुख पान" />
+      <data key="footer_bestview" value="१०२४x७६८, IE5 आणि अधिक वर उत्तम दिसेल" />
+      <data key="footer_visitorcount" value="तुमचा भेटीचा क्रमांक" />
+      <data key="Login1" value="लॉगिन" />
+      <data key="Login2" value="लॉगिन आईडी" />
+      <data key="Login3" value="पासवर्ड" />
+      <data key="D2" value="जी.डी.सी." />
+      <data key="G15" value="महत्वाचे लिंक्स" />
+      <data key="ImportantDates" value="महत्वाचे तारीख" />
+      <data key="ApplicationFee" value="शुल्क" />
+      <data key="PostOfficeList" value="ऐक्सिस बँक यादी" />
+      <data key="ListOfARC" value="अर्ज स्वीकृती केंद्र" />
+      <data key="FAQ" value="वारंवार उपस्थित होणारे प्रश्न" />
+      <data key="ContactUs" value="संपर्क" />
+      <data key="forgotpassword" value="गुप्त संकेत विसरलात?" />
+      <data key="D43" value="सूचना केंद्र" />
+      <data key="D44" value="तक्रार नोंदवा" />
+      <data key="D45" value="तक्रार स्थिती तपासा" />
+      <data key="D27" value="सुरक्षा प्रश्न बदला" />
+      <data key="D28" value="प्रतिक्रिया" />
+      <data key="CandiadteLeft3" value="गुप्त संकेत बदला" />
+      <data key="CandiadteLeft7" value="विद्यार्थी प्रकार माहिती" />
+      <data key="CandiadteLeft8" value="गृह विद्यापीठ आणि आरक्षण माहिती" />
+      <data key="CandiadteLeft9" value="बँक पावती माहिती" />
+      <data key="CandiadteLeft10" value="वैयक्तिक माहिती" />
+      <data key="CandiadteLeft11" value="शैक्षणिक अर्हता माहिती" />
+      <data key="CandiadteLeft12" value="सी.ई.टी.परीक्षा केंद्राची माहिती" />
+      <data key="CandiadteLeft13" value="छायाचित्र आणि स्वाक्षरी अपलोड करणे" />
+      <data key="CandiadteLeft14" value="अर्ज निश्चित करा" />
+      <data key="CandiadteLeft15" value="प्रवेश पत्र छापा" />
+      <data key="AppForm" value="अर्जाच्या लिंक्स" />
+      <data key="CandiadteLeft17" value="राष्ट्रीय स्तरावरील व्यवस्थापक परीक्षा माहिती" />
+      <data key="CandiadteLeft18" value="तक्रार नोंदवा" />
+      <data key="CandiadteLeft19" value="तक्रार स्थिती तपासा" />
+      <data key="CandiadteLeft20" value="अर्ज छापा / संपादित करा" />
+      <data key="SaveAndProceed" value="जतन करा आणि पुढे जा &gt;&gt;" />
+      <data key="Save" value="जतन करा" />
+      <data key="Note" value="टीप:" />
+      <data key="NoteInstruction" value="(*) मार्क केलेले चौकोनातील माहिती (फिल्ड्स)भरणे सक्तीचे आहे." />
+      <data key="D145" value="सी.ई.टी परीक्षा प्रवेश पत्र छापा" />
+      <data key="D143" value="जी.डी. / पी.आई. निमंत्रण पत्र छापा" />
+      <data key="D141" value="जी.डी. / पी.आई. साठी नोंदणी करा" />
+      <data key="D142" value="कॅट - २०११ ची माहिती संपादित करा" />
+      <data key="G2" value="बातम्या" />
+      <data key="G4" value="ऑनलाइन प्रणाली" />
+      <data key="D25" value="अर्ज संपादित करा" />
+      <data key="T1" value="प्रमुख पान" />
+    </Page>
+    <Page name="staticpages/frmforgotpassword.aspx">
+      <data key="forgotpassword1" value="गुप्त संकेत विसरलात?" />
+      <data key="forgotpassword2" value="सुरक्षा प्रश्नाच्या मदतीने तुमचा गुप्त संकेत पुनःस्थापित करा" />
+      <data key="forgotpassword3" value="किंवा" />
+      <data key="forgotpassword4" value="अर्जात दिलेल्या मोबाइलवर आणि ई-मेलवर गुप्त संकेत मिळवा" />
+    </Page>
+    <Page name="staticpages/frmsetpasswordbysecurityquestion.aspx">
+      <data key="setpasswordbysecurityquestion1" value="गुप्त संकेत विसरलात?" />
+      <data key="setpasswordbysecurityquestion2" value="अर्ज क्रमांक" />
+      <data key="setpasswordbysecurityquestion3" value="तुमचा सुरक्षा प्रश्न निवडा" />
+      <data key="setpasswordbysecurityquestion4" value="सुरक्षा प्रश्नाचं उत्तर टाका" />
+      <data key="setpasswordbysecurityquestion5" value="पुढे जा &gt;&gt;&gt;" />
+      <data key="setpasswordbysecurityquestion6" value="नवीन गुप्त संकेत मिळवण्यासाठी खालील माहिती भरा" />
+    </Page>
+    <Page name="staticpages/frmsetpasswordbyemail.aspx">
+      <data key="setpasswordbyemail1" value="गुप्त संकेत विसरलात?" />
+      <data key="setpasswordbyemail2" value="अर्ज क्रमांक" />
+      <data key="setpasswordbyemail3" value="आसन क्रमांक" />
+      <data key="setpasswordbyemail4" value="जन्म तारीख" />
+      <data key="setpasswordbyemail5" value="गुप्त संकेत मिळवा" />
+      <data key="setpasswordbyemail6" value="नवीन गुप्त संकेत मिळवण्यासाठी खालील माहिती भरा" />
+    </Page>
+    <Page name="staticpages/frmsetpassword.aspx">
+      <data key="setpassword1" value="नवीन गुप्त संकेत प्रस्थापित करा" />
+      <data key="setpassword2" value="नवीन गुप्त संकेत टाका" />
+      <data key="setpassword3" value="नवीन गुप्त संकेत पुन्हा टाका" />
+      <data key="setpassword4" value="गुप्त संकेत प्रस्थापित करा" />
+    </Page>
+    <Page name="applicationpages/welcomepage.aspx">
+      <data key="Home6" value="अर्ज भरण्याकरिता महत्वाच्या सूचना :" />
+      <data key="Home7" value="अर्जदाराने सर्वप्रथम संपूर्ण माहिती पुस्तिका वाचावी." />
+      <data key="Home8" value="अर्जदाराला विद्यार्थी प्रकार माहिती,गृह विद्यापीठ आणि आरक्षण माहिती,बँक पावती माहिती,वैयक्तिक माहिती,शैक्षणिक अर्हता माहिती आणि सी.ई.टी.परीक्षा केंद्राची माहिती भरायची आहे." />
+      <data key="Home9" value="अर्जदाराला त्याचे नुकतेच काढलेले छायाचित्र आणि स्वाक्षरी नमुना शीट मध्ये दिलेल्या जागेवर चिकटवा. ही शीट अर्जदाराला स्कॅन करून संकेतस्थळावर दिलेल्या माहितीनुसार अपलोड करायची आहे. " />
+      <data key="Home10" value="अर्जदाराने भरलेली माहिती अचूक असल्याची खात्री करून घ्यावी, काही त्रुटी असल्यास अर्जदार अर्ज निश्चित करायच्या आधी बदल करू सकतो." />
+      <data key="Home11" value="अर्जदाराला माहिती पुस्तिकेत दिल्याप्रमाणे नोंदणी निश्चित करावयाची आहे." />
+      <data key="Home12" value="अर्जदाराने अर्ज निश्चित केल्यानंतर अर्जात बदल करता येणार नाही." />
+      <data key="Home13" value="ऑनलाइन अर्ज पद्धत अर्जदाराचे छायाचित्र,स्वाक्षरी,नाव,सी.ई.टी. परीक्षा केंद्र आणि इतर माहिती असलेले प्रवेश पत्र तयार करेल." />
+      <data key="Home14" value="जे अर्जदार कॅट परीक्षेतील गुणांवर केंदीभूत प्रवेश परीक्षेत ऑल इंडिया सीट्स साठी अर्ज करू इच्छितात त्यांना सी.ई.टी. साठी अर्ज करणे बंधकारक आहे. असा अर्जदारांना  सी.ई.टी. परीक्षेसाठीचे प्रवेश पत्र दिले जाणार नाहीत. असा अर्जदाराने भविष्यातील संदर्भासाठी भरलेल्या अर्जाची प्रत छापून ठेवावी." />
+      <data key="Home15" value="अर्जदाराला प्रवेश पत्राशिवाय परीक्षेला बसता येणार नाही." />
+      <data key="Home16" value="हे प्रवेश पत्र फ़क़्त सामायिक प्रवेश परीक्षेकरिता ग्राह्य आहे, अर्जदाराला प्रवेश मिळण्याची हमी नाही." />
+      <data key="Home17" value="कृपया प्रवेश पत्रावर तुमचे छायाचित्र,स्वाक्षरी आणि इतर माहिती योग्य असल्याची खात्री करून घ्या." />
+      <data key="Home18" value="अर्जदाराला सामायिक प्रवेश परीक्षेच्या केंद्रावर ३० मिनिटे  आधी यायचा आहे" />
+      <data key="Home19" value="कोणत्याही परीस्थित अर्जदाराला दुपारी २ नंतर परीक्षा हॉल मध्ये प्रवेश मिळणार नाही." />
+      <data key="Home20" value="परीक्षा हॉल मध्ये कोणतेही कागद (प्रवेश पत्र सोडून),मोबाइल फ़ोन,कॅल्क्युलेटर,वॉच-कॅल्क्युलेटर,अलार्म घड्याळ,कॅल्क्युलेटर/मेमरी असलेले डिजिटल घड्याळ,स्कैनर यंत्र,ब्लूटूथ असलेले यंत्र आणू नये." />
+      <data key="Home21" value="अर्जदाराने प्रवेश पत्रावर दिलेल्या जागेवर परीवेक्षकाची स्वाक्षरी घ्यावी." />
+      <data key="Home22" value="कृपया सामायिक प्रवेश परीक्षा झाल्यानंतर हे प्रवेश पत्र निकालात काढू नये , हे प्रवेश पत्र तुम्हाला कागदपत्र निरीक्षण आणि अर्ज निश्चितीच्या वेळेस अर्ज स्विकृती केंद्राकडे जमा करायचे आहे." />
+      <data key="Home23" value="कृपया दुसऱ्याचा आसन क्रमांक असलेल्या जागेवर बसू नका." />
+      <data key="Home24" value="परीक्षा पुस्तीकेबद्दल परीवेक्षक,पर्यवेक्षक किवा दुसरया विद्यार्थ्यासी बोलू नका." />
+      <data key="Home25" value="अर्जदार परीक्षेत कोणताही गैरप्रकार करताना आढळल्यास, त्याचा अर्ज कोणतीही पूर्वसूचना न देता रद्द ठरवण्यात येईल." />
+      <data key="Home26" value="अर्जदाराने ऑनलाइन भरलेला छापील अर्ज किंवा कोणतेही कागदपत्र तं.शि.सं. किंवा अर्ज स्विकृती केंद्राला पाठवू नये." />
+      <data key="Home27" value="अर्जदाराला केंदीभूत प्रवेश प्रक्रियेचे (कॅप) वेळापत्रक पाळणे बंधनकारक आहे त्यासाठी अर्जदाराला असं सुचविण्यात येते कि त्यांनी केंदीभूत प्रवेश प्रक्रियेबद्दलची (कॅप) माहिती काळजीपूर्वक वाचावी." />
+      <data key="Home28" value="अर्जदाराला जी.डी./ पी.आई. साठी वेगळी  नोंदणी करावी लागेल." />
+      <data key="Home29" value="जी.डी./ पी.आई. नोंदणी झाल्यानंतर अर्जदार त्या साठीचा प्रवेश पत्र छापू सकतो." />
+      <data key="Home30" value="अर्जदाराला सामायिक प्रवेश परीक्षेची गुणपत्रिका पत्रव्यवहाराचा पत्तावर मिळेल." />
+      <data key="Home31" value="अर्ज भरा" />
+      <data key="Home32" value="स्वागत" />
+      <data key="Home33" value="लॉगिन आईडी" />
+      <data key="Home34" value="जूना लॉगिन माहिती" />
+      <data key="Home35" value="सध्या लॉगिन माहिती" />
+      <data key="Home36" value="अर्ज स्थिती" />
+      <data key="Home37" value="अपूर्ण अर्ज." />
+      <data key="Home38" value="पूर्ण अर्ज. अता अर्ज निश्चित करा." />
+      <data key="Home39" value="अर्ज निश्चित झाला." />
+      <data key="Home40" value="जी.डी. / पी.आई. नोंदणी स्थिती" />
+      <data key="Home41" value="जी.डी. / पी.आई. नोंदणी साठीच्या सूचना :" />
+      <data key="Home42" value="जी.डी. / पी.आई. साठी पात्र अर्जदाराने नोंदणी करावी." />
+      <data key="Home43" value="अर्जदाराने वेळापत्रकानुसार जी.डी. / पी.आई. साठी उपलब्ध असलेली तारीख निवडावी." />
+      <data key="Home44" value="अर्जदाराला उपलब्धतेनुसार जी.डी. / पी.आई. केंद्र आणि तारीख देण्यात येईल." />
+      <data key="Home45" value="जी.डी. / पी.आई. केंद्र आणि तारीख कोणत्याही परिस्थितीत बदलून मिळणार नाही." />
+      <data key="Home46" value="सॉफ्टवेयर  जी.डी. / पी.आई. प्रवेश पत्र  तयार करेल. अर्जदाराला त्याची छापील प्रत घेऊन दिलेल्या केंद्रावर आणि तारखेला जी.डी. / पी.आई.  साठी उपस्थित राहायाचे आहे." />
+      <data key="Home47" value="जी.डी. / पी.आई. ला उपस्थित होताना :" />
+      <data key="Home48" value="अर्जदाराने प्रवेश पत्रावर दिलेल्या केंद्र,तारीख आणि वेळेला जी.डी. / पी.आई. साठी उपस्थित राहावे." />
+      <data key="Home49" value="जे अर्जदार जी.डी. किंवा पी.आई. किंवा दोन्हीला अनुपस्थित राहतील असे अर्जदार बाद ठरवीण्यात येतील आणि ते कॅप प्रक्रियेतून बाद करण्यात येईल तसेच असा अर्जदारांना गुणांक पत्रिका पाठविण्यात येणार नाही." />
+      <data key="Home50" value="महत्त्वाचे : " />
+      <data key="Home51" value="अर्ज स्विकृती केंद्रातून अर्ज निश्चित करण्यास उमेदवार अयशस्वी ठरल्यास त्याचा एम.बी.ए/एम.एम.एस./पी.जी.डी.बी.एम./ पी.जी.डी.एम. अभ्यासक्रमाच्या केंद्रिभूत प्रवेशप्रक्रीयेतून प्रवेश घेण्याचा हक्क रद्दबातल होईल आणि उमेदवाराचे नाव गुणवत्ता यादीत समाविष्ट होणार नाही." />
+      <data key="Home52" value="सूचना :" />
+      <data key="Home53" value="सर्व पात्र अर्जदारांनी सी.ई.टी. साठी अर्ज भरतेवेळी सादर केलेली माहिती अद्यायावत करणे गरजेचे आहे." />
+      <data key="Home54" value="अर्जदार त्यांचे नाव, जन्म दिनांक, लिंग आणि फोटो याशिवाय भरलेला अर्ज दुरुस्त करू शकतात." />
+      <data key="Home55" value="अखिल भारतीय कोट्यातून प्रवेश घेण्यासाठी इच्छूक असलेल्या पात्र उमेदवारांनी त्यांच्या लॉगिन मधून कॅट-२०१ / सीमेट-२०१२ चे गुण अंतर्भूत करावेत." />
+      <data key="Home56" value="अर्जदाराने ऑनलाईन अर्जाची छापील प्रत घेणे  गरजेचे आहे." />
+      <data key="Home57" value="ऑनलाईन अर्जाची छापील प्रत पडताळणीसाठी लागणारया कागदपत्रांत सूचीबद्ध राहील." />
+      <data key="Home58" value="अर्जदाराला ऑनलाईन अर्ज ए.आर.सी. मध्ये स्वतः जाऊन निश्चित करावा लागेल." />
+      <data key="Home59" value="अर्जदाराने सर्व मूळ कागदपत्र पडताळणीसाठी सादर करणे गरजेचे आहे आणि कागदपत्रांच्या साक्षांकित प्रती (अर्जाच्या छापील प्रतीत नमूद केलेल्या कागदपत्रांच्या सूचीप्रमाणे) ए.आर.सी. मध्ये सादर कराव्यात." />
+      <data key="Home60" value="कोणतीही कागदपत्रे सादर करण्यात उमेदवार अयशस्वी ठरल्यास त्याचा अर्ज निश्चित केला जाणार नाही." />
+      <data key="Home61" value="मागासवर्गीय अर्जदार जे विधिग्राह्य जातीचे आणि/किंवा नॉन क्रिमीलेअर प्रमाणपत्र सादर करण्यात अयशस्वी होतील ते सर्वसाधारण प्रवर्गात परिवर्तीत केले जातील आणि त्यांनी ए.आर.सी. मध्ये फी मधील फरकाचे रोख रु. २०० भरणे गरजेचे आहे." />
+      <data key="Home62" value="जर महाराष्ट्र प्रकार- ए, बी, सी आणि डी अर्जदार सहाय्यक कागदपत्रे सादर करण्यात अयशस्वी ठरले तर ते अर्जदार OMS अर्जदारांत परिवर्तीत होतील." />
+      <data key="Home63" value="एकदा अर्ज निश्चित झाला तर कोणत्याही स्थितीत प्रमाणपत्रे स्वीकारली जाणार नाहीत." />
+      <data key="Home64" value="अर्जदाराने अर्ज स्वीकृती केंद्रातील अधिकाऱ्याची सही व अर्ज स्वीकृती केंद्राचा शिक्का असलेली ऑनालाईन पोचपावती घेणे आवश्यक राहील. " />
+      <data key="Home65" value="अर्ज निश्चितीनंतर, उमेदवारीच्या प्रकारात बदल, वर्ग/आरक्षणाच्या दाव्यात बदल, होम युनिवर्सिटीत बदल इत्यादी विनंती स्वीकारली जाणार नाहीत." />
+      <data key="Home66" value="तुम्ही जीडी/पीआय साठी यशस्वीपणे नोंदणी केलेली आहे. जीडी/पीआय निमंत्रण पत्र छापा." />
+      <data key="Home67" value="तुम्ही जीडी/पीआय साठी नोंदणी केलेली नाही. कृपया जीडी/पीआय साठी नोंदणी करा." />
+      <data key="Home68" value="तुम्ही सीईटी साठी नोंदणी केलेली नाही. म्हणून तुम्ही ह्या प्रवेश फेरी करीता पात्र नाही." />
+      <data key="Home69" value="तुमचा अर्ज ए.आर.सी. मध्ये निश्चित केलेला नाही. कृपया निश्चितीसाठी तुमच्या जवळच्या ए.आर.सी.ला दिलेल्या वेळापत्रकाप्रमाणे भेट द्या." />
+      <data key="Home70" value="तुमचा अर्ज ए.आर.सी. मध्ये निश्चित झालेला आहे." />
+      <data key="Home71" value="अनुभव प्रमाणपत्र सादर करणे  : " />
+      <data key="Home72" value=" अर्जदाराने अनुभव प्रमाणपत्र माहिती पुस्तकात दिलेल्या प्रोफार्मा – जी प्रमाणेच खालील प्रमाणपत्रांसह मूळ प्रतीत पाठवावे :" />
+      <data key="Home73" value="१. नेमणूक आदेश" />
+      <data key="Home74" value="२. रुजू झाल्याचा अहवाल" />
+      <data key="Home75" value="3. अर्हता परीक्षेच्या गुणपत्रीका" />
+      <data key="Home76" value="४. कार्यमुक्तीचे पत्र (लागू असेल तर)" />
+      <data key="Home77" value="आवश्यक सर्व प्रमाणपत्रे देलेल्या वेळापत्रकाप्रमाणे लिफाफ्यावर अर्जदाराचा अप्लिकेशन आयडी स्पष्ट नमूद करून आणि “WE certificates for MAH-MBA/MMS-CET 2012” लिहून लिफाफ्यातून खालील पत्त्यावर फक्त रजिस्टर पोस्टनेच पाठवावीत." />
+      <data key="Home78" value="संचालक" />
+      <data key="Home79" value="सिडेनम इंस्टिटूट ऑफ मॅनेजामेंट स्टडिज अँड रिसर्च अँड एंटरप्रीनरशिप एजुकेशन" />
+      <data key="Home80" value="बी.-रोड,चर्चगेट,मुंबई-४०००२०" />
+      <data key="Home81" value="”प्रवेशासाठीचा अर्ज” ए.आर.सी. मध्ये निश्चित करण्याची प्रक्रिया १० मे,२०१२ ते ३१ मे,२०१२ पर्यंत चालू राहील." />
+      <data key="Home82" value="प्रथम वर्ष एम.बी.ए. / एम.एम.एस. / पी.जी.डी.बी.एम. / पी.जी.डी.एम." />
+      <data key="Home83" value="पदव्यूत्तर  पदवी अभ्यासक्रम शैक्षणिक वर्ष २०१२-१३  " />
+    </Page>
+    <Page name="candidatemodule/frmsecurityquestion.aspx">
+      <data key="securityquestion1" value="सुरक्षा प्रश्न स्थापित / पुनःस्थापित करा" />
+      <data key="securityquestion2" value="तुमचा सुरक्षा प्रश्न निवडा आणि योग्य ते उत्तर टाका. हे तुम्हाला तुमचा गुप्त संकेत पुनःस्थापित करायला मदत करेल." />
+      <data key="securityquestion3" value="तुमचा सुरक्षा प्रश्न निवडा" />
+      <data key="securityquestion4" value="उत्तर टाका" />
+      <data key="securityquestion5" value="उत्तर पुन्हा टाका" />
+      <data key="securityquestion6" value="सुरक्षा प्रश्न स्थापित करा" />
+    </Page>
+    <Page name="candidatemodule/frmcandidaturetype.aspx">
+      <data key="candidaturetype1" value="विद्यार्थी प्रकार निवड" />
+      <data key="candidaturetype2" value="सूचना :" />
+      <data key="candidaturetype3" value="जतन करा आणि पुढे जा &gt;&gt;" />
+      <data key="candidaturetype4" value="जतन करा" />
+      <data key="candidaturetype5" value="तुमचा योग्य विद्यार्थी प्रकार निवडा आणि पुढे जा." />
+      <data key="candidaturetype6" value="विद्यार्थी प्रकार / आवश्यक पात्रता " />
+      <data key="candidaturetype7" value="प्रकार निवड" />
+    </Page>
+    <Page name="candidatemodule/frmcategorydecision.aspx">
+      <data key="categorydecision1" value="गृह विद्यापीठ माहिती" />
+      <data key="categorydecision2" value="तुमचा विद्यार्थी प्रकार : महाराष्ट्र राज्य विद्यार्थी - " />
+      <data key="categorydecision3" value="" />
+      <data key="categorydecision4" value="तुमचा गृह विद्यापीठ" />
+      <data key="categorydecision5" value="कृपया जिल्हा निवडल्या नंतर गृह विद्यापीठ दिसे पर्यंत वाट पहा" />
+      <data key="categorydecision6" value="आरक्षण माहिती" />
+      <data key="categorydecision7" value="तुमचा प्रवर्ग निवडा" />
+      <data key="categorydecision8" value="तुमचा आरक्षित प्रवर्ग निवडा" />
+      <data key="categorydecision9" value="तुमची जात निवडा" />
+      <data key="categorydecision10" value="जात" />
+      <data key="categorydecision11" value="जात अनु.क्रमांक" />
+      <data key="categorydecision12" value="तुम्ही अपंग प्रवर्गात येता काय? जर हो असेल तर तुमचा अपंग प्रवर्ग निवडा" />
+      <data key="categorydecision13" value="अपंग प्रवर्ग माहिती" />
+      <data key="categorydecision14" value="१२ वी / एच.एस.सी. / तत्सम परीक्षा उत्तीर्ण झालेला जिल्हा" />
+      <data key="categorydecision15" value="पदवी परीक्षा उत्तीर्ण / उपस्थित झालेला जिल्हा" />
+      <data key="categorydecision16" value="अर्ज स्वीकृती केंद्रावर कुणाचा स्थायी रहिवासी असलेला दाखला सादर कराल?" />
+      <data key="categorydecision17" value="आईचे नाव (स्थायी रहिवासी दाखल्यानुसार)" />
+      <data key="categorydecision18" value="अर्ज स्वीकृती केंद्रावर कुणाचा प्रपत्र-डी सादर करणार?" />
+      <data key="categorydecision19" value="अर्ज स्वीकृती केंद्रावर कुणाचा प्रपत्र-ई सादर करणार?" />
+      <data key="categorydecision20" value="अर्जदार / आई /वडील महाराष्ट्रात स्थायी रहिवासी असलेला जिल्हा निवडा" />
+      <data key="categorydecision21" value="महाराष्ट्रात आई /वडिलांची नेमणूक असलेला जिल्हा निवडा" />
+      <data key="categorydecision22" value=" महाराष्ट्रात परत येऊन आई /वडिलांची नेमणूक असलेला जिल्हा निवडा" />
+      <data key="categorydecision23" value="सूचना :-" />
+      <data key="categorydecision24" value="तुम्हाला अर्ज स्विकृती केंद्रात पडताळणीच्या वेळी कायमस्वरूपी रहिवास किंवा जन्माने महाराष्ट्राचा रहिवासी असल्याचा स्पष्टपणे उल्लेख असलेला (उमेदवाराचा / वडिलांचा/ आईचा) उपविभागीय अधिकारी /उपजिल्हाधिकारी यांच्या मार्फत देण्यात येणारा अधिवास दाखला सदर करणे आवश्यक आहे." />
+      <data key="categorydecision25" value="तुम्हाला अर्ज स्विकृती केंद्रात पडताळणीच्या वेळी पदवी उत्तीर्ण झाल्याचे प्रमाणपत्र अथवा द्वितीय / तृतीय वर्षाची गुणपत्रिका(अंतिम वर्षाची परीक्षा दिली असल्यास)." />
+      <data key="categorydecision26" value="तुम्हाला अर्ज स्विकृती केंद्रात पडताळणीच्या वेळी प्रपत्र 'D '(विद्यार्थी प्रकार 'C ' - भारत सरकारची कार्यालये अथवा उपक्रमांतर्गत येणाऱ्या कार्यालयांमध्ये काम करणारे कर्मचारी) सादर करणे आवश्यक राहील." />
+      <data key="categorydecision27" value="तुम्हाला अर्ज स्विकृती केंद्रात पडताळणीच्या वेळी प्रपत्र 'E '(विद्यार्थी प्रकार 'D ' - महाराष्ट्र सरकारची कार्यालये अथवा उपक्रमांतर्गत येणाऱ्या कार्यालयांमध्ये काम करणारे कर्मचारी) सादर करणे आवश्यक राहील." />
+      <data key="categorydecision28" value="तुम्हाला अर्ज स्विकृती केंद्रात पडताळणीच्या वेळी प्रपत्र A/B/C (लागू असलेले)  सादर करणे आवश्यक राहील." />
+      <data key="categorydecision29" value="तुम्हाला अर्ज स्विकृती केंद्रात पडताळणीच्या वेळी जातीचा स्पष्ट उल्लेख असलेले तसेच संबंधित जात महाराष्ट्र शासनाद्वारे मागासवर्गीय असल्याचा शेरा असलेले जातीचे प्रमाणपत्र सादर करणे आवश्यक आहे." />
+      <data key="categorydecision30" value="तुम्हाला अर्ज स्विकृती केंद्रात पडताळणीच्या वेळी जात वैधता समितीद्वारे देण्यात येणारे महाराष्ट्र शासनाचे जात वैधता प्रमाणपत्र सादर करणे आवश्यक आहे." />
+      <data key="categorydecision31" value="तुम्हाला अर्ज स्विकृती केंद्रात पडताळणीच्या वेळी जातीच्या प्रमाणपत्रा सोबत ३१ मार्च २०१३ पर्यंत वैध असलेले उपविभागीय अधिकारी (S . D . O .)/उपजिल्हाधिकारी यांचे मार्फत देण्यात येणारे उन्नत व प्रगत गटात मोडत नसल्याचे प्रमाणपत्र (non creamy layer certificate )सादर करणे आवश्यक आहे." />
+      <data key="categorydecision32" value="तुम्हाला अर्ज स्विकृती केंद्रात पडताळणीच्या वेळी डायरेक्टर, ऑल इंडिया फिजिकल हॅन्डीकॅप्ड, मुंबई किंवा डीन/ सिविल सर्जन गव्हर्नमेंट/ सिविल हॉस्पिटल (सामान्यतः जिल्हा मुख्यालयात स्थित असलेल्या) यांच्या सहीचा विकलांग असल्याचा पुरावा विहित नमुन्यात (प्रपत्र 'F') सादर करणे आवश्यक आहे." />
+      <data key="categorydecision33" value="तुम्हाला अर्ज स्विकृती केंद्रात पडताळणीच्या वेळी लर्निंग डिसेबिलीटी क्लिनिक, लोकमान्य टिळक मुनिसिपल जनरल हॉस्पिटल, सायन, मुंबई-२२ यांच्या सहीचा विकलांग असल्याचा पुरावा  विहित नमुन्यात (प्रपत्र 'F1') सादर करणे आवश्यक आहे." />
+      <data key="categorydecision34" value="तुम्ही तुमचा विद्यार्थी प्रकार बदलला असल्यामुळे तुम्हाला गृह विद्यापीठ, शारीरिक अपंगत्व व अपंग, प्रवर्गाची माहिती पुन्हा भरावी लागेल." />
+    </Page>
+    <Page name="candidatemodule/frmchallandetails.aspx">
+      <data key="challandetails1" value="टीप:" />
+      <data key="challandetails2" value="बँक पावती माहिती काळजीपूर्वक भरा." />
+      <data key="challandetails3" value="कृपया पुढे जाण्या आधी बँक पावती माहिती निश्चित करा." />
+      <data key="challandetails4" value="बँक पावती रक्कम" />
+      <data key="challandetails5" value="बँक पावती क्रमांक" />
+      <data key="challandetails6" value="बँक पावती दिनांक(दिवस/महिना/वर्ष)" />
+      <data key="challandetails7" value="ऐक्सिस बँक शाखा" />
+    </Page>
+    <Page name="candidatemodule/frmpersonaldetails.aspx">
+      <data key="personaldetails1" value="संपूर्ण नाव" />
+      <data key="personaldetails2" value="दहावी(एस.एस.सी.) / तत्सम गुणपत्रिके प्रमाणे" />
+      <data key="personaldetails3" value="लिंग" />
+      <data key="personaldetails4" value="जन्म तारीख(दि./म./व.)" />
+      <data key="personaldetails5" value="धर्म" />
+      <data key="personaldetails6" value="क्षेत्र" />
+      <data key="personaldetails7" value="मातृभाषा" />
+      <data key="personaldetails8" value="वार्षिक उत्पन्न" />
+      <data key="personaldetails9" value="पत्रव्यवहाराचा पत्ता" />
+      <data key="personaldetails10" value="कायमस्वरूपी पत्ता" />
+      <data key="personaldetails11" value="पत्रव्यवहाराचा राज्य" />
+      <data key="personaldetails12" value="कायमस्वरूपी राज्य" />
+      <data key="personaldetails13" value="पत्रव्यवहाराचा जिल्हा" />
+      <data key="personaldetails14" value="कायमस्वरूपी जिल्हा" />
+      <data key="personaldetails15" value="पत्रव्यवहाराचा पिनकोड" />
+      <data key="personaldetails16" value="कायमस्वरूपी पिनकोड" />
+      <data key="personaldetails17" value="मोबाइल क्र." />
+      <data key="personaldetails18" value="ई-मेल" />
+      <data key="personaldetails19" value="दूरध्वनी क्र.१" />
+      <data key="personaldetails20" value="दूरध्वनी क्र.२" />
+      <data key="personaldetails21" value="तुम्ही ई.बी.सी. साठी पात्र आहात काय ?" />
+    </Page>
+    <Page name="candidatemodule/frmqualificationdetails.aspx">
+      <data key="qualificationdetails1" value="१०वी आणि १२वी वर्गांच्या गुणांची माहिती" />
+      <data key="qualificationdetails2" value="१०वी,१२वी आणि पदवीचे गुण काळजीपूर्वक भरा." />
+      <data key="qualificationdetails3" value="ग्रेड पद्धती मध्ये अर्जदाराला महाविद्यालय / संस्था / विद्यापीठ यांनी प्रमाणित केलेले सममूल्य गुणांक प्रमाणपत्र अर्ज स्विकृती केंद्राकडे तपासनिसाठी द्यावे.गुणांक श्रेणी मध्ये ग्रेड असल्यास कमाल गुण ग्राह्य धरले जातील." />
+      <data key="qualificationdetails4" value="शैक्षणिक अर्हता" />
+      <data key="qualificationdetails5" value="मिळालेले गुण" />
+      <data key="qualificationdetails6" value="एकूण गुण" />
+      <data key="qualificationdetails7" value="टक्केवारी" />
+      <data key="qualificationdetails8" value="पार" />
+      <data key="qualificationdetails9" value="१०वी / एस.एस.सी. / तत्सम" />
+      <data key="qualificationdetails10" value="१२वी /एच.एस.सी. / तत्सम" />
+      <data key="qualificationdetails11" value="एकूण पार गुण" />
+      <data key="qualificationdetails12" value="अर्जदार पदवी परीक्षेला पुनः उपस्थित असल्यास 'Appearing' म्हणून टाकावे." />
+      <data key="qualificationdetails13" value="अर्जदाराला अर्ज स्विकृती केंद्राकडे पदवी/ उच्च पदवी यांची गुणपत्रिका तपासणीसाठी द्यावी लागेल आणि त्यांनी किमान शैक्षणिक अर्हता पूर्ण केलेली असावी, अन्यथा असा अर्जदाराला बाद ठरविण्यात येईल." />
+      <data key="qualificationdetails14" value="जे अर्जदार आरक्षित प्रवर्गात येतात त्यांना पदवी परीक्षेत किमान ४५% गुण आणि बाकीच्यांना ५०% गुण असले पाहिजे." />
+      <data key="qualificationdetails15" value="पदवी शाखा" />
+      <data key="qualificationdetails16" value="पदवी स्थिति" />
+      <data key="qualificationdetails17" value="पदवी" />
+      <data key="qualificationdetails18" value="उच्च पदवी" />
+      <data key="qualificationdetails19" value="उच्च पदवी स्थिति" />
+      <data key="qualificationdetails20" value="उच्च पदवी शाखा" />
+      <data key="qualificationdetails21" value="कॅट २०११ माहिती" />
+      <data key="qualificationdetails22" value="तुम्ही कॅट २०११ परीक्षा दिली आहे का?" />
+      <data key="qualificationdetails23" value="कॅट नोंदणी क्रमांक / प्रोमात्रीक चाचणी क्रमांक" />
+      <data key="qualificationdetails24" value="कॅट ई-मेल" />
+      <data key="qualificationdetails25" value="होय" />
+      <data key="qualificationdetails26" value="नाही" />
+    </Page>
+    <Page name="candidatemodule/frmcetcenterdetails.aspx">
+      <data key="cetcenterdetails1" value="सी.ई.टी. परीक्षा केंद्र निवड" />
+      <data key="cetcenterdetails2" value="जिथे तुम्हाला लेखी परीक्षा द्याची आहे ते शहर निवडा." />
+      <data key="cetcenterdetails3" value="परीक्षा केंद्र आपोआप तुमच्या प्रवेश पत्रावर छापून येईल." />
+      <data key="cetcenterdetails4" value="तुम्ही एकदा तुमचा अर्ज निश्चित केल्यानंतर तुम्ही लेखी परीक्षेचा शहर आणि परीक्षा केंद्र बदलू शकणार नाही." />
+      <data key="cetcenterdetails5" value="तुमच्या पसंतीचे शहर निवडा" />
+    </Page>
+    <Page name="candidatemodule/frmuploadphotosignature.aspx">
+      <data key="uploadphotosignature1" value="छायाचित्र आणि स्वाक्षरी अपलोड करा" />
+      <data key="uploadphotosignature2" value="अर्जदाराचे छायाचित्र आणि स्वाक्षरी" />
+      <data key="uploadphotosignature3" value="छायाचित्र आणि स्वाक्षरी मार्ग" />
+      <data key="uploadphotosignature4" value="अपलोड करा" />
+      <data key="uploadphotosignature5" value="टिप्पणी:-" />
+      <data key="uploadphotosignature6" value="उमेदवाराचा मागील तीन महिन्यात काढलेला रंगीत फोटो " />
+      <data key="uploadphotosignature7" value="फोटो सीमा (बॉर्डर) नसलेला आणि ३.५ से. मी. रुंद * ४.५ से. मी. उंच आकाराचा असायला हवा." />
+      <data key="uploadphotosignature8" value="टोपी/ रुमाल न घालता पूर्ण चेहऱ्याचा फोटो असावा(उमेदवार धार्मिक किंवा वांशिक रूढीनुसार नेहमी टोपी किंवा रुमाल वापरत असेल तरीही त्याचा संपूर्ण चेहरा स्पष्टपणे दिसणे आवश्यक आहे." />
+      <data key="uploadphotosignature9" value="चेहऱ्याची हनुवटी पासून माथ्यापार्यन्तची पांढऱ्या पृष्ठभागावर काढलेली प्रतिमा २.५ से. मी. ते ३.५ से. मी. उंचीची असावी. फोटो मॅट फिनिश केलेला असावा." />
+      <data key="uploadphotosignature10" value="आप्लीकेशन किट वर दिलेल्या जागेत फोटो चिकटवा." />
+      <data key="uploadphotosignature11" value="सहीसाठी असलेल्या जागेत सही करावी." />
+      <data key="uploadphotosignature12" value="योग्य प्रतीच्या स्कॅनवर कमीतकमी १०० डिपीआय घेऊन फोटो सोबत सही स्कॅन करावी. तयार होणाऱ्या फाईलची साईझ ५० केबी पेक्षा जास्त असू नये." />
+      <data key="uploadphotosignature13" value="प्रतिमा जे.पी.जी फॉर् मॅट मध्ये लोकल मशीनवर सेव्ह करावी." />
+      <data key="uploadphotosignature14" value="सही सोबत स्कॅन केलेला फोटो चांगल्या दर्जाचा आहे याची खात्री करून घ्या." />
+    </Page>
+    <Page name="candidatemodule/frmconfirmapplication.aspx">
+      <data key="ConfirmApplication1" value="तुमचा गुप्त संकेत पुन्हा टाका" />
+      <data key="ConfirmApplication2" value="कृपया तुम्ही भरलेली माहिती पुन्हा एकदा तपासून घ्या, काही बदल असल्यास अर्ज निश्चित करायच्या आधी बदल करा." />
+      <data key="ConfirmApplication3" value="अर्ज निश्चित झाल्यानंतर तुम्ही तुमची माहिती बदलू सकणार नाही." />
+      <data key="ConfirmApplication4" value="गुप्त संकेत टाका" />
+      <data key="ConfirmApplication5" value="अर्ज निश्चित करा" />
+    </Page>
+    <Page name="candidatemodule/frmprinthallticket.aspx">
+      <data key="Printhallticket1" value="तंत्र शिक्षण संचालनालय, महाराष्ट्र राज्य" />
+      <data key="Printhallticket2" value="३, महापालिका मार्ग,पत्र पेटी क्रमांक-१९६७,मुंबई-४००००१" />
+      <data key="Printhallticket3" value="सामायिक प्रवेश परीक्षा प्रवेश पत्र (महाराष्ट्र- एम.बी.ए./ एम.एम.एस. सी.ई.टी.२०११)" />
+      <data key="Printhallticket4" value="अर्ज क्रमांक :" />
+      <data key="Printhallticket5" value="आसन क्रमांक :" />
+      <data key="Printhallticket6" value="अर्जदाराची प्रत :" />
+      <data key="Printhallticket7" value="अर्जदाराचे नाव" />
+      <data key="Printhallticket8" value="कायमस्वरूपी पत्ता" />
+      <data key="Printhallticket9" value="पत्रव्यवहाराचा पत्ता" />
+      <data key="Printhallticket10" value="सी.ई.टी. परीक्षा केंद्र" />
+      <data key="Printhallticket11" value="परीक्षेचा दिनांक आणि वेळ" />
+      <data key="Printhallticket12" value="पर्यवेक्षकाची स्वाक्षरी" />
+      <data key="Printhallticket13" value="(परीक्षेच्या वेळी स्वाक्षरी करायची)" />
+      <data key="Printhallticket14" value="(डॉ. सु. का. महाजन)" />
+      <data key="Printhallticket15" value="प्र.संचालक,तंत्र शिक्षण,महाराष्ट्र राज्य,मुंबई" />
+      <data key="Printhallticket16" value="अर्जदारासाठी महत्त्वाच्या सूचना :" />
+      <data key="Printhallticket17" value="अर्जदाराला हे प्रवेश पत्र आणि स्वतःचे छायाचित्र असलेले ओळखपत्राशिवाय(मतदान ओळखपत्र, पासपोर्ट, पैनकार्ड,ड्राइविंग लाइसेंस,विद्यार्थी ओळखपत्र)परीक्षेला बसता येणार नाही." />
+      <data key="Printhallticket18" value="हे प्रवेश पत्र फ़क़्त सामायिक प्रवेश परीक्षेकरिता ग्राह्य आहे, अर्जदाराला प्रवेश मिळण्याची हमी नाही." />
+      <data key="Printhallticket19" value="कृपया प्रवेश पत्रावर तुमचे छायाचित्र,स्वाक्षरी आणि इतर माहिती योग्य असल्याची खात्री करून घ्या." />
+      <data key="Printhallticket20" value="अर्जदाराला सामायिक प्रवेश परीक्षेच्या केंद्रावर ३० मिनिटे (दु. १.३० वा) उपस्थित रहाणे आवश्यक आहे." />
+      <data key="Printhallticket21" value="कोणत्याही परीस्थित अर्जदाराला दुपारी २ नंतर परीक्षा हॉल मध्ये प्रवेश मिळणार नाही." />
+      <data key="Printhallticket22" value="परीक्षा हॉल मध्ये कोणतेही कागद (प्रवेश पत्र सोडून),मोबाइल फ़ोन,कॅल्क्युलेटर,वॉच-कॅल्क्युलेटर,अलार्म घड्याळ,कॅल्क्युलेटर/मेमरी असलेले डिजिटल घड्याळ,स्कैनर यंत्र,ब्लूटूथ असलेले यंत्र आणू नये." />
+      <data key="Printhallticket23" value="अर्जदाराने प्रवेश पत्रावर दिलेल्या जागेवर पर्यवेक्षकाची स्वाक्षरी न विसरता घ्यावी." />
+      <data key="Printhallticket24" value="कृपया सामायिक प्रवेश परीक्षा झाल्यानंतर हे प्रवेश पत्र निकालात काढू नये , हे प्रवेश पत्र तुम्हाला कागदपत्र निरीक्षण आणि अर्ज निश्चितीच्या वेळेस अर्ज स्विकृती केंद्रावर जमा करायचे आहे." />
+      <data key="Printhallticket25" value="कृपया दुसऱ्याचा आसन क्रमांक असलेल्या जागेवर(रिकामी असेल तरीही)बसू नका." />
+      <data key="Printhallticket26" value="परीक्षा पुस्तिकेबद्दल परीवेक्षक,पर्यवेक्षक किवा दुसऱ्या विद्यार्थ्याशी बोलू नका." />
+      <data key="Printhallticket27" value="अर्जदार परीक्षेत कोणताही गैरप्रकार करताना (पर्यवेक्षकास)आढळल्यास, त्याचा अर्ज कोणतीही पूर्वसूचना न देता रद्द ठरवण्यात येईल." />
+      <data key="Printhallticket28" value="अर्जदाराने ऑनलाइन भरलेला छापील अर्ज किंवा कोणतेही कागदपत्र तं.शि.सं. किंवा अर्ज स्विकृती केंद्राला पाठवू नये." />
+      <data key="Printhallticket29" value="अर्जदाराला केंदीभूत प्रवेश प्रक्रियेचे (कॅप) वेळापत्रक पाळणे बंधनकारक आहे त्यासाठी अर्जदाराला असं सुचविण्यात येते कि त्यांनी केंदीभूत प्रवेश प्रक्रियेबद्दलची (कॅप) माहिती काळजीपूर्वक वाचावी." />
+      <data key="Printhallticket30" value="अर्जदाराला जी.डी./ पी.आई. साठी वेगळी नोंदणी करावी लागेल." />
+      <data key="Printhallticket31" value="जी.डी./ पी.आई. नोंदणी झाल्यानंतर अर्जदार त्या साठीचा प्रवेश पत्र छापू सकतो." />
+      <data key="Printhallticket32" value="अर्जदाराला सामायिक प्रवेश परीक्षेची गुणपत्रिका पत्रव्यवहाराच्या पत्त्यावर मिळेल." />
+      <data key="Printhallticket33" value="प्रवेश पत्र छापा" />
+      <data key="Printhallticket34" value="प्रिंटसाठी महत्वाच्या सूचना:-" />
+      <data key="Printhallticket35" value="प्रिंट करण्यापूर्वी फाईल मेनुमधील 'पेज सेट'अप मध्ये खालीलप्रमाणे सेटिंग करावी" />
+      <data key="Printhallticket36" value="डावीकडील समास (लेफ्ट मार्जीन)= ०.५" />
+      <data key="Printhallticket37" value="उजवीकडील समास (राईट मार्जीन)=०.५" />
+      <data key="Printhallticket38" value="वरील समास (टॉप मार्जीन)= ०.५" />
+      <data key="Printhallticket39" value="खालील समास (बॉटम मार्जीन)=०.५" />
+      <data key="Printhallticket40" value="हेडर रिकामा असावा" />
+      <data key="Printhallticket41" value="फुटर रिकामा असावा" />
+      <data key="Printhallticket42" value="प्रिंट A4 साईझच्या पेपरवर काढावी." />
+      <data key="Printhallticket43" value="ऑनलाईन सिस्टीममध्ये प्रिंट बटन दाबून हॉल तिकीट प्रिंट करावे." />
+      <data key="Printhallticket44" value="तुम्हाला योग्य प्रिंट आउट मिळाल्याची खात्री करून घ्या, नसल्यास पुन्हा प्रिंट काढा." />
+    </Page>
+    <Page name="candidatemodule/frmhallticket.aspx">
+      <data key="Printhallticket1" value="तंत्र शिक्षण संचालनालय, महाराष्ट्र राज्य" />
+      <data key="Printhallticket2" value="३, महापालिका मार्ग,पत्र पेटी क्रमांक-१९६७,मुंबई-४००००१" />
+      <data key="Printhallticket3" value="सामायिक प्रवेश परीक्षा प्रवेश पत्र (महाराष्ट्र- एम.बी.ए./ एम.एम.एस. सी.ई.टी.२०११)" />
+      <data key="Printhallticket4" value="अर्ज क्रमांक :" />
+      <data key="Printhallticket5" value="आसन क्रमांक :" />
+      <data key="Printhallticket6" value="अर्जदाराची प्रत :" />
+      <data key="Printhallticket7" value="अर्जदाराचे नाव" />
+      <data key="Printhallticket8" value="कायमस्वरूपी पत्ता" />
+      <data key="Printhallticket9" value="पत्रव्यवहाराचा पत्ता" />
+      <data key="Printhallticket10" value="सी.ई.टी. परीक्षा केंद्र" />
+      <data key="Printhallticket11" value="परीक्षेचा दिनांक आणि वेळ" />
+      <data key="Printhallticket12" value="पर्यवेक्षकाची स्वाक्षरी" />
+      <data key="Printhallticket13" value="(परीक्षेच्या वेळी स्वाक्षरी करायची)" />
+      <data key="Printhallticket14" value="(डॉ. सु. का. महाजन)" />
+      <data key="Printhallticket15" value="प्र.संचालक,तंत्र शिक्षण,महाराष्ट्र राज्य,मुंबई" />
+      <data key="Printhallticket16" value="अर्जदारासाठी महत्त्वाच्या सूचना :" />
+      <data key="Printhallticket17" value="अर्जदाराला हे प्रवेश पत्र आणि स्वतःचे छायाचित्र असलेले ओळखपत्राशिवाय(मतदान ओळखपत्र, पासपोर्ट, पैनकार्ड,ड्राइविंग लाइसेंस,विद्यार्थी ओळखपत्र)परीक्षेला बसता येणार नाही." />
+      <data key="Printhallticket18" value="हे प्रवेश पत्र फ़क़्त सामायिक प्रवेश परीक्षेकरिता ग्राह्य आहे, अर्जदाराला प्रवेश मिळण्याची हमी नाही." />
+      <data key="Printhallticket19" value="कृपया प्रवेश पत्रावर तुमचे छायाचित्र,स्वाक्षरी आणि इतर माहिती योग्य असल्याची खात्री करून घ्या." />
+      <data key="Printhallticket20" value="अर्जदाराला सामायिक प्रवेश परीक्षेच्या केंद्रावर ३० मिनिटे (दु. १.३० वा) उपस्थित रहाणे आवश्यक आहे." />
+      <data key="Printhallticket21" value="कोणत्याही परीस्थित अर्जदाराला दुपारी २ नंतर परीक्षा हॉल मध्ये प्रवेश मिळणार नाही." />
+      <data key="Printhallticket22" value="परीक्षा हॉल मध्ये कोणतेही कागद (प्रवेश पत्र सोडून),मोबाइल फ़ोन,कॅल्क्युलेटर,वॉच-कॅल्क्युलेटर,अलार्म घड्याळ,कॅल्क्युलेटर/मेमरी असलेले डिजिटल घड्याळ,स्कैनर यंत्र,ब्लूटूथ असलेले यंत्र आणू नये." />
+      <data key="Printhallticket23" value="अर्जदाराने प्रवेश पत्रावर दिलेल्या जागेवर पर्यवेक्षकाची स्वाक्षरी न विसरता घ्यावी." />
+      <data key="Printhallticket24" value="कृपया सामायिक प्रवेश परीक्षा झाल्यानंतर हे प्रवेश पत्र निकालात काढू नये , हे प्रवेश पत्र तुम्हाला कागदपत्र निरीक्षण आणि अर्ज निश्चितीच्या वेळेस अर्ज स्विकृती केंद्रावर जमा करायचे आहे." />
+      <data key="Printhallticket25" value="कृपया दुसऱ्याचा आसन क्रमांक असलेल्या जागेवर(रिकामी असेल तरीही)बसू नका." />
+      <data key="Printhallticket26" value="परीक्षा पुस्तिकेबद्दल परीवेक्षक,पर्यवेक्षक किवा दुसऱ्या विद्यार्थ्याशी बोलू नका." />
+      <data key="Printhallticket27" value="अर्जदार परीक्षेत कोणताही गैरप्रकार करताना (पर्यवेक्षकास)आढळल्यास, त्याचा अर्ज कोणतीही पूर्वसूचना न देता रद्द ठरवण्यात येईल." />
+      <data key="Printhallticket28" value="अर्जदाराने ऑनलाइन भरलेला छापील अर्ज किंवा कोणतेही कागदपत्र तं.शि.सं. किंवा अर्ज स्विकृती केंद्राला पाठवू नये." />
+      <data key="Printhallticket29" value="अर्जदाराला केंदीभूत प्रवेश प्रक्रियेचे (कॅप) वेळापत्रक पाळणे बंधनकारक आहे त्यासाठी अर्जदाराला असं सुचविण्यात येते कि त्यांनी केंदीभूत प्रवेश प्रक्रियेबद्दलची (कॅप) माहिती काळजीपूर्वक वाचावी." />
+      <data key="Printhallticket30" value="अर्जदाराला जी.डी./ पी.आई. साठी वेगळी नोंदणी करावी लागेल." />
+      <data key="Printhallticket31" value="जी.डी./ पी.आई. नोंदणी झाल्यानंतर अर्जदार त्या साठीचा प्रवेश पत्र छापू सकतो." />
+      <data key="Printhallticket32" value="अर्जदाराला सामायिक प्रवेश परीक्षेची गुणपत्रिका पत्रव्यवहाराच्या पत्त्यावर मिळेल." />
+      <data key="Printhallticket33" value="प्रवेश पत्र छापा" />
+      <data key="Printhallticket34" value="प्रिंटसाठी महत्वाच्या सूचना:-" />
+      <data key="Printhallticket35" value="प्रिंट करण्यापूर्वी फाईल मेनुमधील 'पेज सेट'अप मध्ये खालीलप्रमाणे सेटिंग करावी" />
+      <data key="Printhallticket36" value="डावीकडील समास (लेफ्ट मार्जीन)= ०.५" />
+      <data key="Printhallticket37" value="उजवीकडील समास (राईट मार्जीन)=०.५" />
+      <data key="Printhallticket38" value="वरील समास (टॉप मार्जीन)= ०.५" />
+      <data key="Printhallticket39" value="खालील समास (बॉटम मार्जीन)=०.५" />
+      <data key="Printhallticket40" value="हेडर रिकामा असावा" />
+      <data key="Printhallticket41" value="फुटर रिकामा असावा" />
+      <data key="Printhallticket42" value="प्रिंट A4 साईझच्या पेपरवर काढावी." />
+      <data key="Printhallticket43" value="ऑनलाईन सिस्टीममध्ये प्रिंट बटन दाबून हॉल तिकीट प्रिंट करावे." />
+      <data key="Printhallticket44" value="तुम्हाला योग्य प्रिंट आउट मिळाल्याची खात्री करून घ्या, नसल्यास पुन्हा प्रिंट काढा." />
+    </Page>
+    <Page name="candidatemodule/frmcandidatesummary.aspx">
+      <data key="Candidatesummary1" value="अर्ज छापा" />
+      <data key="Candidatesummary2" value="अर्ज निश्चित करा" />
+      <data key="Candidatesummary3" value="विद्यार्थी संक्षेप" />
+      <data key="Candidatesummary4" value="अर्ज क्रमांक" />
+      <data key="Candidatesummary5" value="आसन क्रमांक" />
+      <data key="Candidatesummary6" value="नाव" />
+      <data key="Candidatesummary7" value="लिंग" />
+      <data key="Candidatesummary8" value="विद्यार्थी प्रकार" />
+      <data key="Candidatesummary9" value="जन्म तारीख" />
+      <data key="Candidatesummary10" value="प्रवर्ग" />
+      <data key="Candidatesummary11" value="धर्म" />
+      <data key="Candidatesummary12" value="क्षेत्र" />
+      <data key="Candidatesummary13" value="मातृभाषा" />
+      <data key="Candidatesummary14" value="वार्षिक उत्पन्न" />
+      <data key="Candidatesummary15" value="तुम्ही ई.बी.सी. साठी पात्र आहात काय ?" />
+      <data key="Candidatesummary16" value="तुम्ही कॅट २०११ परीक्षा दिली आहे का?" />
+      <data key="Candidatesummary17" value="अपंग प्रवर्ग" />
+      <data key="Candidatesummary18" value="गृह विद्यापीठ" />
+      <data key="Candidatesummary19" value="१२ वी / एच.एस.सी. / तत्सम परीक्षा उत्तीर्ण झालेला जिल्हा" />
+      <data key="Candidatesummary20" value="पदवी परीक्षा उत्तीर्ण / उपस्थित झालेला जिल्हा" />
+      <data key="Candidatesummary21" value="सी.ई.टी. परीक्षा केंद्र निवड" />
+      <data key="Candidatesummary22" value=" संपर्क" />
+      <data key="Candidatesummary23" value="पत्रव्यवहाराचा पत्ता" />
+      <data key="Candidatesummary24" value="कायमस्वरूपी पत्ता" />
+      <data key="Candidatesummary25" value="इतर माहिती" />
+      <data key="Candidatesummary26" value="शैक्षणिक अर्हता माहिती" />
+      <data key="Candidatesummary27" value="१०वीचे गुण" />
+      <data key="Candidatesummary28" value="१२वीचे गुण" />
+      <data key="Candidatesummary29" value="पार" />
+      <data key="Candidatesummary30" value="पदवी स्थिति" />
+      <data key="Candidatesummary31" value="पदवी शाखा" />
+      <data key="Candidatesummary32" value="बँक पावती माहिती" />
+      <data key="Candidatesummary33" value="बँक पावती क्रमांक" />
+      <data key="Candidatesummary34" value="बँक पावती रक्कम" />
+      <data key="Candidatesummary35" value="बँक पावती दिनांक" />
+      <data key="Candidatesummary36" value="ऐक्सिस बँक शाखा" />
+      <data key="Candidatesummary37" value="अर्ज स्विकृती केंद्रावर अर्ज पडताळणीसाठी सादर करायाच्या प्रमाणपत्राची यादी" />
+      <data key="Candidatesummary38" value="अर्ज स्वीकृती केंद्रावर कुणाचा स्थायी रहिवासी असलेला दाखला सादर कराल?" />
+      <data key="Candidatesummary39" value="आईचे नाव (स्थायी रहिवासी दाखल्यानुसार)" />
+      <data key="Candidatesummary40" value="अर्ज स्वीकृती केंद्रावर कुणाचा प्रपत्र-डी सादर करणार?" />
+      <data key="Candidatesummary41" value="अर्ज स्वीकृती केंद्रावर कुणाचा प्रपत्र-ई सादर करणार?" />
+      <data key="Candidatesummary42" value="अर्जदार / आई /वडील महाराष्ट्रात स्थायी रहिवासी असलेला जिल्हा" />
+      <data key="Candidatesummary43" value="महाराष्ट्रात आई /वडिलांची नेमणूक असलेला जिल्हा" />
+      <data key="Candidatesummary44" value=" महाराष्ट्रात परत येऊन आई /वडिलांची नेमणूक असलेला जिल्हा" />
+      <data key="Candidatesummary45" value="तुम्ही सी.ई.टी. देऊ इच्छिता का ?" />
+      <data key="Candidatesummary46" value="पदवी गुण" />
+      <data key="Candidatesummary47" value="पदव्यूत्तर पदवी स्थिति" />
+      <data key="Candidatesummary48" value="पदव्यूत्तर पदवी शाखा" />
+      <data key="Candidatesummary49" value="पदव्यूत्तर गुण" />
+    </Page>
+    <Page name="candidatemodule/frmprintapplicationform.aspx">
+      <data key="printapplicationForm1" value="तंत्र शिक्षण संचालनालय, महाराष्ट्र राज्य" />
+      <data key="printapplicationForm2" value="३, महापालिका मार्ग,पत्र पेटी क्रमांक-१९६७,मुंबई-४००००१" />
+      <data key="printapplicationForm3" value="शैक्षणिक वर्ष २०११-१२" />
+      <data key="printapplicationForm4" value="अर्ज क्रमांक" />
+      <data key="printapplicationForm5" value="आसन क्रमांक" />
+      <data key="printapplicationForm6" value="संपूर्ण नाव" />
+      <data key="printapplicationForm7" value="लिंग" />
+      <data key="printapplicationForm8" value="विद्यार्थी प्रकार" />
+      <data key="printapplicationForm9" value="जन्म तारीख" />
+      <data key="printapplicationForm10" value="प्रवर्ग" />
+      <data key="printapplicationForm11" value="धर्म" />
+      <data key="printapplicationForm12" value="क्षेत्र" />
+      <data key="printapplicationForm13" value="मातृभाषा" />
+      <data key="printapplicationForm14" value="वार्षिक उत्पन्न" />
+      <data key="printapplicationForm15" value="तुम्ही ई.बी.सी. साठी पात्र आहात काय ?" />
+      <data key="printapplicationForm16" value="तुम्ही कॅट २०११ परीक्षा दिली आहे का?" />
+      <data key="printapplicationForm17" value="अपंग प्रवर्ग" />
+      <data key="printapplicationForm18" value="गृह विद्यापीठ" />
+      <data key="printapplicationForm19" value="१२ वी / एच.एस.सी. / तत्सम परीक्षा उत्तीर्ण झालेला जिल्हा" />
+      <data key="printapplicationForm20" value="पदवी परीक्षा उत्तीर्ण / उपस्थित झालेला जिल्हा" />
+      <data key="printapplicationForm21" value="सी.ई.टी. परीक्षा केंद्र निवड" />
+      <data key="printapplicationForm22" value=" संपर्क" />
+      <data key="printapplicationForm23" value="पत्रव्यवहाराचा पत्ता" />
+      <data key="printapplicationForm24" value="कायमस्वरूपी पत्ता" />
+      <data key="printapplicationForm25" value="इतर माहिती" />
+      <data key="printapplicationForm26" value="शैक्षणिक अर्हता माहिती" />
+      <data key="printapplicationForm27" value="१०वीचे गुण" />
+      <data key="printapplicationForm28" value="१२वीचे गुण" />
+      <data key="printapplicationForm29" value="पार" />
+      <data key="printapplicationForm30" value="पदवी स्थिति" />
+      <data key="printapplicationForm31" value="पदवी शाखा" />
+      <data key="printapplicationForm32" value="बँक पावती माहिती" />
+      <data key="printapplicationForm33" value="बँक पावती क्रमांक" />
+      <data key="printapplicationForm34" value="बँक पावती रक्कम" />
+      <data key="printapplicationForm35" value="बँक पावती दिनांक" />
+      <data key="printapplicationForm36" value="ऐक्सिस बँक शाखा" />
+      <data key="printapplicationForm37" value="अर्ज स्विकृती केंद्रात अर्ज पडताळणीसाठी सादर करायाच्या प्रमाणपत्राची यादी" />
+      <data key="printapplicationForm38" value="आवृत्ती क्र." />
+      <data key="printapplicationForm39" value="राज्य" />
+      <data key="printapplicationForm40" value="जिल्हा" />
+      <data key="printapplicationForm41" value="पिनकोड" />
+      <data key="printapplicationForm42" value="मोबाइल क्र." />
+      <data key="printapplicationForm43" value="ई-मेल" />
+      <data key="printapplicationForm44" value="दूरध्वनी क्र.१" />
+      <data key="printapplicationForm45" value="दूरध्वनी क्र.२" />
+      <data key="printapplicationForm46" value="अर्हता" />
+      <data key="printapplicationForm47" value="मिळालेले गुण" />
+      <data key="printapplicationForm48" value="एकूण गुण" />
+      <data key="printapplicationForm49" value="टक्केवारी" />
+      <data key="printapplicationForm50" value="पार" />
+      <data key="printapplicationForm51" value="१०वी / एस.एस.सी. / तत्सम" />
+      <data key="printapplicationForm52" value="१२वी /एच.एस.सी. / तत्सम" />
+      <data key="printapplicationForm53" value="पदवी" />
+      <data key="printapplicationForm54" value="पदव्यूत्तर पदवी" />
+      <data key="printapplicationForm55" value="पदव्यूत्तर पदवी स्थिति" />
+      <data key="printapplicationForm56" value="पदव्यूत्तर पदवी शाखा" />
+      <data key="printapplicationForm57" value="ठिकाण" />
+      <data key="printapplicationForm58" value="तारीख" />
+      <data key="printapplicationForm59" value="अर्जदाराची स्वाक्षरी" />
+      <data key="printapplicationForm60" value="अर्जात बदल केल्याची शेवटची तारीख आणि वेळ" />
+      <data key="printapplicationForm61" value="प्रथम वर्ष एम.बी.ए. / एम.एम.एस. / पी.जी.डी.बी.एम. / पी.जी.डी.एम." />
+      <data key="printapplicationForm62" value="पदव्यूत्तर  पदवी अभ्यासक्रमासाठी अर्ज " />
+      <data key="printapplicationForm63" value="आसन क्रमांक :" />
+      <data key="printapplicationForm64" value="जाहीरनामा" />
+      <data key="printapplicationForm65" value="मी शैक्षणिक वर्ष २०११-१३ मधील प्रथम वर्ष एम.बी.ए. / एम.एम.एस. अभ्यासक्रम प्रवेशाकरिता दिलेली संपूर्ण नियमावली वाचलेली आहे," />
+      <data key="printapplicationForm66" value="भरलेला अर्ज स्विकृती केंद्रावर सादर करायचा आहे हे मला ज्ञात आहे." />
+      <data key="printapplicationForm67" value="मी भरलेल्या अर्जात आणि प्रपत्र- आय मध्ये दिलेली सगळी माहिती खरी आहे. " />
+      <data key="printapplicationForm68" value="भविष्यात जर ही माहिती आणि / किंवा जमा केलेले प्रमाणपत्र खोटे आढळल्यास माझा प्रवेश रद्द होईल " />
+      <data key="printapplicationForm69" value="तसेच प्रवेशाकरिता मी भरलेली रक्कम जप्त करण्यात येईल." />
+      <data key="printapplicationForm70" value="पुढे मी नियमानुसार शिक्षेस पात्र राहील." />
+      <data key="printapplicationForm71" value="अर्जदाराला अर्ज स्विकृती केंद्रावर प्रमाणपत्र तपासणीच्यावेळी खालील प्रमाणपत्रांची मूळप्रत सादर करावी लागेल." />
+      <data key="printapplicationForm72" value="हा अर्ज पत्राद्वारे कुठेही पाठवू नये.हा अर्ज अर्जदाराला पुढील संदर्भासाठी जपून ठेवायचा आहे." />
+      <data key="printapplicationForm73" value="अर्ज स्विकृती केंद्रावर अर्ज तपासणी आणि निश्चिती करिता या अर्जाची छापील प्रत  दिलेल्या वेळापत्रकानुसार सादर करावी लागेल." />
+      <data key="printapplicationForm74" value="केंद्रीय प्रवेश पद्धतीद्वारे प्रवेशाकरिता अर्ज स्वीकृती केंद्रातील अधिकार्यांद्वारे अर्जाची पडताळणी करून पोचपावती घेणे आवश्यक आहे." />
+      <data key="printapplicationForm75" value="अर्ज स्वीकृती केंद्रावर कुणाचा स्थायी रहिवासी असलेला दाखला सादर कराल?" />
+      <data key="printapplicationForm76" value="आईचे नाव (स्थायी रहिवासी दाखल्यानुसार)" />
+      <data key="printapplicationForm77" value="अर्ज स्वीकृती केंद्रावर कुणाचा प्रपत्र-डी सादर करणार?" />
+      <data key="printapplicationForm78" value="अर्ज स्वीकृती केंद्रावर कुणाचा प्रपत्र-ई सादर करणार?" />
+      <data key="printapplicationForm79" value="अर्जदार / आई /वडील महाराष्ट्रात स्थायी रहिवासी असलेला जिल्हा" />
+      <data key="printapplicationForm80" value="महाराष्ट्रात आई /वडिलांची नेमणूक असलेला जिल्हा" />
+      <data key="printapplicationForm81" value=" महाराष्ट्रात परत येऊन आई /वडिलांची नेमणूक असलेला जिल्हा" />
+      <data key="printapplicationForm82" value="तुम्ही सी.ई.टी. देऊ इच्छिता का ?" />
+      <data key="printapplicationForm83" value="मी खालील प्रमाणपत्रांची साक्ष्यांकित केलेली सत्यप्रत अनुक्रमे जोडत आहे." />
+      <data key="printapplicationForm84" value="[अर्जदाराला अर्ज स्विकृती केंद्रावर प्रमाणपत्रांची मूळप्रत सादर करावी लागेल.]" />
+    </Page>
+    <Page name="candidatemodule/frmfeedback.aspx">
+      <data key="feedback1" value="प्रतिक्रिया" />
+      <data key="feedback2" value="प्रतिक्रिया पाठवा" />
+      <data key="feedback3" value="तुमची प्रतिक्रिया इथे नोंदवा" />
+    </Page>
+    <Page name="candidatemodule/frmchangepassword.aspx">
+      <data key="changepassword1" value="जुना गुप्त संकेत टाका" />
+      <data key="changepassword2" value="नवीन गुप्त संकेत टाका" />
+      <data key="changepassword3" value="नवीन गुप्त संकेत पुन्हा टाका" />
+      <data key="changepassword4" value="तुम्हाला तुमचा गुप्त संकेत बदल करायचा असल्यास सध्या अस्तित्वात असलेला गुप्त संकेत टाका आणि नवीन गुप्त संकेत प्रस्थापित करा." />
+    </Page>
+    <Page name="candidatemodule/frmmessagesnonreplied.aspx">
+      <data key="messagesnonreplied1" value="अनुत्तरीत सूचना" />
+      <data key="messagesnonreplied2" value="उत्तरीत सूचना" />
+      <data key="messagesnonreplied3" value="सूचना पाठवा" />
+      <data key="messagesnonreplied4" value="क्रमांक" />
+      <data key="messagesnonreplied5" value="पाठविल्याची वेळ" />
+      <data key="messagesnonreplied6" value="प्रक्षेपित सूचना" />
+      <data key="messagesnonreplied7" value="विषय" />
+      <data key="messagesnonreplied8" value="सूचना" />
+      <data key="messagesnonreplied9" value="अनुत्तरीत सूचना मध्ये कुठलीही सूचना नाही." />
+    </Page>
+    <Page name="candidatemodule/frmmessagesreplied.aspx">
+      <data key="messagesreplied1" value="अनुत्तरीत सूचना" />
+      <data key="messagesreplied2" value="उत्तरीत सूचना" />
+      <data key="messagesreplied3" value="सूचना पाठवा" />
+      <data key="messagesreplied4" value="क्रमांक" />
+      <data key="messagesreplied5" value="पाठविल्याची वेळ" />
+      <data key="messagesreplied6" value="प्रक्षेपित सूचना" />
+      <data key="messagesreplied7" value="विषय" />
+      <data key="messagesreplied8" value="सूचना" />
+      <data key="messagesreplied9" value="उत्तरीत सूचना मध्ये कुठलीही सूचना नाही." />
+    </Page>
+    <Page name="candidatemodule/frmmessagescompose.aspx">
+      <data key="messagescompose1" value="अनुत्तरीत सूचना" />
+      <data key="messagescompose2" value="उत्तरीत सूचना" />
+      <data key="messagescompose3" value="सूचना पाठवा" />
+      <data key="messagescompose4" value="च्याकडे" />
+      <data key="messagescompose5" value="पाठविल्याची वेळ" />
+      <data key="messagescompose6" value="प्रक्षेपित सूचना" />
+      <data key="messagescompose7" value="विषय" />
+      <data key="messagescompose8" value="सूचना" />
+      <data key="messagescompose9" value="जोडणी" />
+    </Page>
+    <Page name="candidatemodule/frmfaq.aspx">
+      <data key="faq1" value="अनुत्तरीत सूचना" />
+      <data key="faq2" value="उत्तरीत सूचना" />
+      <data key="faq3" value="सूचना पाठवा" />
+      <data key="faq4" value="वारंवार उपस्थित होणारे प्रश्न" />
+    </Page>
+    <Page name="candidatemodule/frmgrievancesstatus.aspx">
+      <data key="grievancesstatus1" value="तुम्ही कुठलीही तक्रार पाठविलेली नाही." />
+    </Page>
+    <Page name="candidatemodule/frmomsjkdecision.aspx">
+      <data key="omsjkdecision1" value="राष्ट्रीय स्तरावरील व्यवस्थापक परीक्षा माहिती" />
+      <data key="omsjkdecision2" value="विद्यार्थी प्रकार" />
+      <data key="omsjkdecision3" value="गृह विद्यापीठ" />
+      <data key="omsjkdecision4" value="तुम्ही ओ.एम.एस.(OMS)म्हणून अर्ज करू इच्छिता का? " />
+      <data key="omsjkdecision5" value="तुम्ही सी.ई.टी. देऊ इच्छिता का ?" />
+      <data key="omsjkdecision6" value="तुम्ही सी. ई. टी. २०११ च्या लेखी चाचणीला न बसण्याचा विकल्प निवडला असल्यामुळे तुम्हाला प्रवेश पत्र दिले जाणार नाही. तुमची अखिल भारतीय स्तरावरील जागा कॅट-२०११ चे गुण आणि महाराष्ट्र एम.बी.ए. / एम.एम.एस. सामायिक प्रवेश परीक्षा २०११ चा जी. डि. / पी आय. चे गुण यावर आधारित राहील. तुम्हाला जी. डि. / पी आय. साठी वेळापत्रकानुसार नोंदणी करणे आवश्यक राहील." />
+      <data key="omsjkdecision7" value="तुम्हाला अर्ज स्विकृती केंद्रात पडताळणीच्या वेळी प्रपत्र A/B/C (लागू असलेले)  सादर करणे आवश्यक राहील." />
+    </Page>
+    <Page name="candidatemodule/frmgdpicallletter.aspx">
+      <data key="gdpicallletter1" value="तंत्र शिक्षण संचालनालय, महाराष्ट्र राज्य" />
+      <data key="gdpicallletter2" value="३, महापालिका मार्ग,पत्र पेटी क्रमांक-१९६७,मुंबई-४००००१" />
+      <data key="gdpicallletter3" value="जी.डी. / पी.आई. प्रवेश पत्र (महाराष्ट्र -  एम.बी.ए. / एम.एम.एस.  सी.ई.टी. २०१२)" />
+      <data key="gdpicallletter4" value="आसन क्रमांक : " />
+      <data key="gdpicallletter5" value="अर्ज क्रमांक : " />
+      <data key="gdpicallletter6" value="अर्जदाराची प्रत : " />
+      <data key="gdpicallletter7" value="अर्जदाराचे नाव" />
+      <data key="gdpicallletter8" value="कायमस्वरूपी पत्ता" />
+      <data key="gdpicallletter9" value="पत्रव्यवहाराचा पत्ता" />
+      <data key="gdpicallletter10" value="जी.डी. / पी.आई. केंद्र" />
+      <data key="gdpicallletter11" value="जी.डी. / पी.आई. दिनांक आणि वेळ" />
+      <data key="gdpicallletter12" value="जी.डी. / पी.आई. बैच" />
+      <data key="gdpicallletter13" value="समन्वयकाची स्वाक्षरी" />
+      <data key="gdpicallletter14" value="(जी.डी. / पी.आई.च्या वेळी स्वाक्षरी करायची)" />
+      <data key="gdpicallletter15" value="(डॉ. सु. का. महाजन)" />
+      <data key="gdpicallletter16" value="प्र.संचालक,तंत्र शिक्षण,महाराष्ट्र राज्य,मुंबई" />
+      <data key="gdpicallletter17" value="प्रिंटसाठी महत्वाच्या सूचना:-" />
+      <data key="gdpicallletter18" value="प्रिंट करण्यापूर्वी फाईल मेनुमधील 'पेज सेट'अप मध्ये खालीलप्रमाणे सेटिंग करावी" />
+      <data key="gdpicallletter19" value="डावीकडील समास (लेफ्ट मार्जीन)= ०.५" />
+      <data key="gdpicallletter20" value="उजवीकडील समास (राईट मार्जीन)=०.५" />
+      <data key="gdpicallletter21" value="वरील समास (टॉप मार्जीन)= ०.५" />
+      <data key="gdpicallletter22" value="खालील समास (बॉटम मार्जीन)=०.५" />
+      <data key="gdpicallletter23" value="हेडर रिकामा असावा" />
+      <data key="gdpicallletter24" value="फुटर रिकामा असावा" />
+      <data key="gdpicallletter25" value="प्रिंट A4 साईझच्या पेपरवर काढावी." />
+      <data key="gdpicallletter26" value="ऑनलाईन सिस्टीममध्ये प्रिंट बटन दाबून हॉल तिकीट प्रिंट करावे." />
+      <data key="gdpicallletter27" value="तुम्हाला योग्य प्रिंट आउट मिळाल्याची खात्री करून घ्या, नसल्यास पुन्हा प्रिंट काढा." />
+      <data key="gdpicallletter28" value="जी.डी. / पी.आई. प्रवेश पत्र छापा" />
+      <data key="gdpicallletter29" value="अर्जदारासाठी महत्त्वाच्या सूचना :" />
+      <data key="gdpicallletter30" value="अर्जदाराला ह्या प्रवेश पत्राशिवाय जी.डी. / पी.आई. देता येणार नाही." />
+      <data key="gdpicallletter31" value="हे प्रवेश पत्र फ़क़्त जी.डी. / पी.आई. करिता ग्राह्य आहे, अर्जदाराला प्रवेश मिळण्याची हमी नाही." />
+      <data key="gdpicallletter32" value="कृपया प्रवेश पत्रावर तुमचे छायाचित्र,स्वाक्षरी आणि इतर माहिती योग्य असल्याची खात्री करून घ्या." />
+      <data key="gdpicallletter33" value="कृपया अर्जदाराने जी.डी. आणि पी.आई. दोन्ही साठी वेगळे उपस्थित राहण्याची खात्री करून घ्यावी आणि तसा समन्वयकाचा शेरा प्रवेश पत्रावर घ्यावा." />
+      <data key="gdpicallletter34" value="अर्जदाराला जी.डी. / पी.आई. केंद्रावर ३० मिनिटे आधी उपस्थित राहणे आवश्यक आहे." />
+      <data key="gdpicallletter35" value="अर्जदाराला दिलेल्या वेळेनंतर जी.डी. / पी.आई. साठी उपस्थित राहण्यास मिळणार नाही." />
+      <data key="gdpicallletter36" value="अर्जदाराला जी.डी. / पी.आई. साठी दिलेली तारीख आणि वेळ कोणत्याही परिस्थितीत बदलून मिळणार नाही." />
+      <data key="gdpicallletter37" value="अर्जदाराने जी.डी. / पी.आई. च्या वेळी मोबाइल फ़ोन,ब्लूटूथ असलेले यंत्र आणू नये." />
+      <data key="gdpicallletter38" value="अर्जदाराने प्रवेश पत्रावर दिलेल्या जागेवर समन्वयकाची स्वाक्षरी न विसरता घ्यावी." />
+      <data key="gdpicallletter39" value="अर्जदाराने जी.डी. / पी.आई. झाल्यानंतर हे प्रवेश पत्र निकालात काढू नये ." />
+      <data key="gdpicallletter40" value="कृपया सामायिक प्रवेश परीक्षा झाल्यानंतर हे प्रवेश पत्र निकालात काढू नये." />
+      <data key="gdpicallletter41" value="अर्जदार कोणताही गैरप्रकार करताना आढळल्यास, त्याचा अर्ज कोणतीही पूर्वसूचना न देता रद्द ठरवण्यात येईल." />
+      <data key="gdpicallletter42" value="अर्जदाराला केंदीभूत प्रवेश प्रक्रियेचे (कॅप) वेळापत्रक पाळणे बंधनकारक आहे त्यासाठी अर्जदाराला असं सुचविण्यात येते कि त्यांनी केंदीभूत प्रवेश प्रक्रियेबद्दलची (कॅप) माहिती काळजीपूर्वक वाचावी." />
+      <data key="gdpicallletter43" value="जर अर्जदार दिनांक १० मे २०१२ ते ३१ मे २०१२ या वेळेत अर्ज स्वीकृती केंद्रावर अर्ज निश्चित करू शकला नाही तर अर्जदाराचे नाव मेरीट यादी मध्ये प्रकाशित केले जाणार नाही आणि असा अर्जदार कॅप प्रक्रियेतून बाद होईल." />
+      <data key="gdpicallletter44" value="अर्जदाराला गुणपत्रिका पत्रव्यवहाराच्या पत्त्यावर मिळेल." />
+      <data key="Printhallticket34" value="प्रिंटसाठी महत्वाच्या सूचना:-" />
+      <data key="Printhallticket35" value="प्रिंट करण्यापूर्वी फाईल मेनुमधील 'पेज सेट'अप मध्ये खालीलप्रमाणे सेटिंग करावी" />
+      <data key="Printhallticket36" value="डावीकडील समास (लेफ्ट मार्जीन)= ०.५" />
+      <data key="Printhallticket37" value="उजवीकडील समास (राईट मार्जीन)=०.५" />
+      <data key="Printhallticket38" value="वरील समास (टॉप मार्जीन)= ०.५" />
+      <data key="Printhallticket39" value="खालील समास (बॉटम मार्जीन)=०.५" />
+      <data key="Printhallticket40" value="हेडर रिकामा असावा" />
+      <data key="Printhallticket41" value="फुटर रिकामा असावा" />
+      <data key="Printhallticket42" value="प्रिंट A4 साईझच्या पेपरवर काढावी." />
+      <data key="Printhallticket43" value="ऑनलाईन सिस्टीममध्ये प्रिंट बटन दाबून हॉल तिकीट प्रिंट करावे." />
+      <data key="Printhallticket44" value="तुम्हाला योग्य प्रिंट आउट मिळाल्याची खात्री करून घ्या, नसल्यास पुन्हा प्रिंट काढा." />
+    </Page>
+    <Page name="candidatemodule/frmprintgdpicallletter.aspx">
+      <data key="printgdpicallletter1" value="तंत्र शिक्षण संचालनालय, महाराष्ट्र राज्य" />
+      <data key="printgdpicallletter2" value="३, महापालिका मार्ग,पत्र पेटी क्रमांक-१९६७,मुंबई-४००००१" />
+      <data key="printgdpicallletter3" value="जी.डी. / पी.आई. प्रवेश पत्र (महाराष्ट्र -  एम.बी.ए. / एम.एम.एस.  सी.ई.टी. २०१२)" />
+      <data key="printgdpicallletter4" value="आसन क्रमांक : " />
+      <data key="printgdpicallletter5" value="अर्ज क्रमांक : " />
+      <data key="printgdpicallletter6" value="अर्जदाराची प्रत : " />
+      <data key="printgdpicallletter7" value="अर्जदाराचे नाव" />
+      <data key="printgdpicallletter8" value="कायमस्वरूपी पत्ता" />
+      <data key="printgdpicallletter9" value="पत्रव्यवहाराचा पत्ता" />
+      <data key="printgdpicallletter10" value="जी.डी. / पी.आई. केंद्र" />
+      <data key="printgdpicallletter11" value="जी.डी. / पी.आई. दिनांक आणि वेळ" />
+      <data key="printgdpicallletter12" value="जी.डी. / पी.आई. बैच" />
+      <data key="printgdpicallletter13" value="समन्वयकाची स्वाक्षरी" />
+      <data key="printgdpicallletter14" value="(जी.डी. / पी.आई.च्या वेळी स्वाक्षरी करायची)" />
+      <data key="printgdpicallletter15" value="(डॉ. सु. का. महाजन)" />
+      <data key="printgdpicallletter16" value="प्र.संचालक,तंत्र शिक्षण,महाराष्ट्र राज्य,मुंबई" />
+      <data key="printgdpicallletter17" value="प्रिंटसाठी महत्वाच्या सूचना:-" />
+      <data key="printgdpicallletter18" value="प्रिंट करण्यापूर्वी फाईल मेनुमधील 'पेज सेट'अप मध्ये खालीलप्रमाणे सेटिंग करावी" />
+      <data key="printgdpicallletter19" value="डावीकडील समास (लेफ्ट मार्जीन)= ०.५" />
+      <data key="printgdpicallletter20" value="उजवीकडील समास (राईट मार्जीन)=०.५" />
+      <data key="printgdpicallletter21" value="वरील समास (टॉप मार्जीन)= ०.५" />
+      <data key="printgdpicallletter22" value="खालील समास (बॉटम मार्जीन)=०.५" />
+      <data key="printprintgdpicallletter23" value="हेडर रिकामा असावा" />
+      <data key="printgdpicallletter24" value="फुटर रिकामा असावा" />
+      <data key="printgdpicallletter25" value="प्रिंट A4 साईझच्या पेपरवर काढावी." />
+      <data key="printgdpicallletter26" value="ऑनलाईन सिस्टीममध्ये प्रिंट बटन दाबून हॉल तिकीट प्रिंट करावे." />
+      <data key="printgdpicallletter27" value="तुम्हाला योग्य प्रिंट आउट मिळाल्याची खात्री करून घ्या, नसल्यास पुन्हा प्रिंट काढा." />
+      <data key="printgdpicallletter28" value="जी.डी. / पी.आई. प्रवेश पत्र छापा" />
+      <data key="printgdpicallletter29" value="अर्जदारासाठी महत्त्वाच्या सूचना :" />
+      <data key="printgdpicallletter30" value="अर्जदाराला ह्या प्रवेश पत्राशिवाय जी.डी. / पी.आई. देता येणार नाही." />
+      <data key="printgdpicallletter31" value="हे प्रवेश पत्र फ़क़्त जी.डी. / पी.आई. करिता ग्राह्य आहे, अर्जदाराला प्रवेश मिळण्याची हमी नाही." />
+      <data key="printgdpicallletter32" value="कृपया प्रवेश पत्रावर तुमचे छायाचित्र,स्वाक्षरी आणि इतर माहिती योग्य असल्याची खात्री करून घ्या." />
+      <data key="printgdpicallletter33" value="कृपया अर्जदाराने जी.डी. आणि पी.आई. दोन्ही साठी वेगळे उपस्थित राहण्याची खात्री करून घ्यावी आणि तसा समन्वयकाचा शेरा प्रवेश पत्रावर घ्यावा." />
+      <data key="printgdpicallletter34" value="अर्जदाराला जी.डी. / पी.आई. केंद्रावर ३० मिनिटे आधी उपस्थित राहणे आवश्यक आहे." />
+      <data key="printgdpicallletter35" value="अर्जदाराला दिलेल्या वेळेनंतर जी.डी. / पी.आई. साठी उपस्थित राहण्यास मिळणार नाही." />
+      <data key="printgdpicallletter36" value="अर्जदाराला जी.डी. / पी.आई. साठी दिलेली तारीख आणि वेळ कोणत्याही परिस्थितीत बदलून मिळणार नाही." />
+      <data key="printgdpicallletter37" value="अर्जदाराने जी.डी. / पी.आई. च्या वेळी मोबाइल फ़ोन,ब्लूटूथ असलेले यंत्र आणू नये." />
+      <data key="printgdpicallletter38" value="अर्जदाराने प्रवेश पत्रावर दिलेल्या जागेवर समन्वयकाची स्वाक्षरी न विसरता घ्यावी." />
+      <data key="printgdpicallletter39" value="अर्जदाराने जी.डी. / पी.आई. झाल्यानंतर हे प्रवेश पत्र निकालात काढू नये ." />
+      <data key="printgdpicallletter40" value="कृपया सामायिक प्रवेश परीक्षा झाल्यानंतर हे प्रवेश पत्र निकालात काढू नये." />
+      <data key="printgdpicallletter41" value="अर्जदार कोणताही गैरप्रकार करताना आढळल्यास, त्याचा अर्ज कोणतीही पूर्वसूचना न देता रद्द ठरवण्यात येईल." />
+      <data key="printgdpicallletter42" value="अर्जदाराला केंदीभूत प्रवेश प्रक्रियेचे (कॅप) वेळापत्रक पाळणे बंधनकारक आहे त्यासाठी अर्जदाराला असं सुचविण्यात येते कि त्यांनी केंदीभूत प्रवेश प्रक्रियेबद्दलची (कॅप) माहिती काळजीपूर्वक वाचावी." />
+      <data key="printgdpicallletter43" value="जर अर्जदार दिनांक १० मे २०१२ ते ३१ मे २०१२ या वेळेत अर्ज स्वीकृती केंद्रावर अर्ज निश्चित करू शकला नाही तर अर्जदाराचे नाव मेरीट यादी मध्ये प्रकाशित केले जाणार नाही आणि असा अर्जदार कॅप प्रक्रियेतून बाद होईल." />
+      <data key="printgdpicallletter44" value="अर्जदाराला गुणपत्रिका पत्रव्यवहाराच्या पत्त्यावर मिळेल." />
+    </Page>
+    <Page name="candidatemodule/frmcatexamdetails.aspx">
+      <data key="catexamdetails1" value="कॅट - २०११ ची माहिती" />
+      <data key="catexamdetails2" value="तुम्ही कॅट २०११ परीक्षा दिली आहे का?" />
+      <data key="catexamdetails3" value="कॅट नोंदणी क्रमांक / प्रोमात्रीक चाचणी क्रमांक" />
+      <data key="catexamdetails4" value="कॅट ई-मेल" />
+      <data key="catexamdetails5" value="कॅट - २०११ मध्ये मिळालेली टक्केवारी(००.०१ ते ९९.९९ च्या रुपात)" />
+      <data key="catexamdetails6" value="उदाहरण :  जर ९९.५ मिळाले असतील तर ९९.५० अशाप्रकारे नोंद करा" />
+      <data key="catexamdetails7" value="कॅट - २०११ मध्ये मिळालेले गुण" />
+      <data key="catexamdetails8" value="टीप : तुम्ही कॅट-२०११ परीक्षा दिली असली पाहिजे(आई.आई.एम'स नि घेतलेली)" />
+    </Page>
+    <Page name="candidatemodule/frmregisterforgdpi.aspx">
+      <data key="registerforgdpi1" value="जी.डी. / पी.आई. नोंदणी" />
+      <data key="registerforgdpi2" value="तुमच्या पसंतीची जी.डी. / पी.आई. साठी तारीख निवडा." />
+      <data key="registerforgdpi3" value="तुम्ही निवडलेल्या तारीखेनुसार तुम्हाला जी.डी. / पी.आई.  साठीचे केंद्र आपोआप तुमच्या प्रवेश पत्रावर मिळेल." />
+      <data key="registerforgdpi4" value="तुम्ही तुमची जी.डी. / पी.आई. साठीची नोंदणी निश्चित केल्यावर तारीख आणि केंद्र बदलता येणार नाही." />
+      <data key="registerforgdpi5" value="लाल रंगात असलेल्या तारीख त्या शहराकरिता उपलब्ध नाहीत." />
+      <data key="registerforgdpi6" value="जी.डी. / पी.आई. शहर" />
+      <data key="registerforgdpi7" value="जी.डी. / पी.आई. साठी तारीख निवडा" />
+      <data key="registerforgdpi8" value="नोंदणी निश्चित करा" />
+    </Page>
+  </Language>
+</Root>

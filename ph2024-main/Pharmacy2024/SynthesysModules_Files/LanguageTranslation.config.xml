@@ -1,0 +1,62 @@
+<!-- Please keep all Codes in Alphabetical Order according to Transliterate Name-->
+<Langauges AllowMultiple="Y">
+	<Language>
+		<Transliterate Name="Bengali(বেঙ্গলি)" Code="bn" Default="N"></Transliterate>
+		<KeyBoard Name="BENGALI_PHONETIC" Code="bn_phone"></KeyBoard>
+	</Language>
+
+	<Language>
+		<Transliterate Name="Gujarati(ગુજરાતી )" Code="gu" Default="N" ></Transliterate>
+		<KeyBoard Name="GUJARATI_PHONETIC" Code="gu_phone"></KeyBoard>
+	</Language>
+
+	<Language>
+		<Transliterate Name="Hindi(हिंदी)" Code="hi" Default="N"></Transliterate>
+		<KeyBoard Name="HINDI" Code="hi"></KeyBoard>
+	</Language>
+	
+	<Language>
+		<Transliterate Name="Kannada(ಕನ್ನಡ)" Code="kn" Default="N"></Transliterate>
+		<KeyBoard Name="KANNADA_PHONETIC"  Code="kn_phone"></KeyBoard>
+	</Language>
+
+	<Language>
+		<Transliterate Name="Malayalam(മലയാളം)" Code="ml" Default="N" ></Transliterate>
+		<KeyBoard Name="MALAYALAM_PHONETIC"  Code="ml_phone"></KeyBoard>
+	</Language>
+
+	<Language>
+		<Transliterate Name="Marathi(मराठी)" Code="mr" Default="Y" ></Transliterate>
+		<KeyBoard Name="DEVANAGARI_PHONETIC"  Code="deva_phone"></KeyBoard>
+	</Language>
+
+
+	<Language>
+		<Transliterate Name="Punjabi(ਪੰਜਾਬੀ)" Code="pa" Default="N" ></Transliterate>
+		<KeyBoard Name="GURMUKHI_PHONETIC" Code="guru_phone"></KeyBoard>
+	</Language>
+
+
+	<Language>
+		<Transliterate Name="Sanskrit(संस्कृत)" Code="sa" Default="N" ></Transliterate>
+		<KeyBoard Name="SANSKRIT_PHONETIC" Code="sa_phone"></KeyBoard>
+	</Language>
+
+
+	<Language>
+		<Transliterate Name="Tamil(தமிழ்)" Code="ta" Default="N" ></Transliterate>
+		<KeyBoard Name="TAMIL_PHONETIC" Code="ta_phone"></KeyBoard>
+	</Language>
+
+
+	<Language>
+		<Transliterate Name="Telugu(తెలుగు)" Code="te" Default="N"></Transliterate>
+		<KeyBoard Name="TELUGU_PHONETIC"  Code="te_phone"></KeyBoard>
+	</Language>
+
+	<Language>
+		<Transliterate Name="Urdu(اردو)" Code="ur" Default="N"></Transliterate>
+		<KeyBoard Name="URDU"  Code="ur"></KeyBoard>
+	</Language>
+
+</Langauges>

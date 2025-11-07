@@ -1,0 +1,109 @@
+﻿/*Table used for printing*/
+table .PrintTable
+{
+	width:100%;
+	padding:0 3px;
+	font-size:11px;
+	font-family:Sans-Serif;
+	border:0px solid #000;/*Border Color*/
+	background-color:#FFF;/*Background Color*/
+	color:#000;/*Font Color*/
+	border-collapse:collapse;
+	border-width:0 1px 1px 0;	
+}
+.PrintTable td
+{
+	background-color:#FFF;/*Background Color*/
+	border:0px solid #000;
+	border-width:1px 0 0 1px;
+	padding:4px;
+}
+/*
+.PrintTable th
+{
+	background-color:
+	font:13px solid Verdana;
+	font-weight:bold;
+	color:#000;
+	border:0px solid #000;
+	border-width:1px 0 0 1px;
+	padding:4px;
+}*/
+.PrintTable .head
+{
+	background-color:#FFF;/*Background Color*/
+	font: solid 13px Verdana;
+	font-weight:bold;
+	color:#000;
+	border:0px solid #000;
+	border-width:1px 0 0 1px;
+	padding:4px;
+	text-align:center;
+}
+/*Table used for printing- End*/
+
+/*Table used for printing*/
+.PrintTableNew 
+{
+	width:99%;
+	padding:0 3px;
+	font-size:10px;
+	font-family:Verdana;
+	border:0px solid #000;/*Border Color*/
+	background:transparent;
+	color:#000;/*Font Color*/
+	border-collapse:collapse;
+	border-width:0 1px 1px 0;
+}
+.PrintTableNew td
+{
+	border:0px solid #000;
+	border-width:1px 0 0 1px;
+	padding:4px;
+	font-size:10px;
+	font-family:Verdana;
+}
+.PrintTableNew th
+{
+	font-size:10px;
+	font-family:Verdana;
+	font-weight:bold;
+	color:#000000;
+	border:0px solid #000;
+	border-width:1px 0 0 1px;
+	padding:4px;
+}
+.PrintTableNew .Block
+{
+	border: 1px solid black;
+}
+.PrintTableNew .Pref
+{
+	text-align: right;
+	border-top-width:0;
+	border-left-width:0; 
+}
+.PrintTableNew .Code
+{
+	border: 1px solid black;
+	width: 70px;
+	text-align:center;
+	font-weight:bold;
+}
+.PrintTableNew .Blank
+{
+	border: 0px solid black;
+}
+.PrintTableNew .head
+{
+	font-size:11px;
+	font-family:Verdana;
+	font-weight:bold;
+	color:#000;
+	border:0px solid #000;
+	border-width:1px 0 0 1px;
+	padding:4px;
+	text-align:center;
+}
+
+/*Table used for printing- End*/

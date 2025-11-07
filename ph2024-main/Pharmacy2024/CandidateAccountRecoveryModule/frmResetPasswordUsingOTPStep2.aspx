@@ -1,0 +1,25 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPages/StaticMasterPageSB.Master" AutoEventWireup="true" CodeBehind="frmResetPasswordUsingOTPStep2.aspx.cs" Inherits="Pharmacy2024.CandidateAccountRecoveryModule.frmResetPasswordUsingOTPStep2" %>
+<%@ Register Assembly="Synthesys.Controls.ContentBox" Namespace="Synthesys.Controls" TagPrefix="cc1" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="rightContainer" runat="Server">
+   
+    <script language="javascript" type = "text/javascript">
+        window.history.forward(1);
+    </script>
+    <cc1:ContentBox ID="ContentTable1" runat="server" HeaderText="Reset password using verification code sent via text message (SMS)">
+        <table class = "AppFormTable">
+            <tr>
+                <th align = "left">CET Cell will sent One Time Password (OTP) via SMS to following Mobile Number.</th>
+            </tr>
+            <tr>
+                <td align="center"><br /><font size = "4" color = "red"><b>Registered Mobile Number : <asp:Label ID="lblMobileNo" runat="server"></asp:Label></b></font></td>
+            </tr>
+            <tr>
+                <td align = "center">
+                    <br />
+                    <asp:Button ID="btnContinue" runat="server" Text="CONTINUE" CssClass="InputButton" OnClick="btnContinue_Click" />
+                </td>
+            </tr>
+        </table>
+    </cc1:ContentBox>
+</asp:Content>

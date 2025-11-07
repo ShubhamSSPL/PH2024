@@ -1,0 +1,216 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPages/DynamicMasterPageWithOutLeftMenuSB.Master" AutoEventWireup="true" CodeBehind="frmImportChoiceCodesFromCAPRound2.aspx.cs" Inherits="Pharmacy2024.CandidateModuleCAPRound3.frmImportChoiceCodesFromCAPRound2" %>
+<%@ Register Assembly="Synthesys.Controls.ContentBox" Namespace="Synthesys.Controls" TagPrefix="cc1" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="rightContainer" Runat="Server">
+    <script type="text/javascript" src="../SynthesysModules_Files/Scripts/ContentBox.js"></script>
+    <script src="../Scripts/jquery-2.1.3.min.js" type="text/javascript" language="javascript"></script>
+    <style>       
+        #layoutSidenav #layoutSidenav_content {
+            margin-left: unset !important;
+        }
+        #rightContainer_ContentTable1_gvSelectedOptionsList input[type='checkbox'] {
+            width: 20px;
+            height: 20px;
+        }
+        #rightContainer_ContentBox1_ContentBoxOverlayTwo {
+            position: fixed !important;
+        }
+         #rightContainer_ContentBox1 {
+            position: fixed !important;
+            top: 10% !important;
+            width: 80%;
+            z-index: 2000 !important;
+         }
+        @media screen and (max-width:768px) {
+            #rightContainer_ContentBox1 {
+                top: 10% !important;
+                width: 90%;
+            }
+        }
+    </style>
+    <script language="javascript" type = "text/javascript">
+        $(document).ready(function () {
+            var success = document.getElementById('<%= hdnStepID.ClientID%>').value;
+            for (var i = 1; i <= success; i++) {
+                $('#nav' + i).addClass('sf-success');
+            }
+        });
+    </script>
+    <script language="javascript" type = "text/javascript">
+        window.history.forward(1);
+        function checkImportOptions(sender, args) 
+        {
+            if (document.getElementById("rightContainer_ContentTable2_rbnYes").checked || document.getElementById("rightContainer_ContentTable2_rbnNo").checked) 
+            {
+            }
+            else 
+            {
+                args.IsValid = false;
+            }
+        }
+        function openPopUpBox() 
+        {
+            document.getElementById("<%=ContentBox1.ClientID %>").Show('#000000', true);
+        }
+    </script>
+    <cc1:ContentBox ID="cbMenu" runat="server" HeaderVisible="false">
+        <center>
+            <div class="stepsForm">
+                <div class="sf-steps">
+                    <div class="sf-steps-content">
+                    	<div id ="nav1" class="sf-active">
+                        	<span>1</span><a id="a_1" runat="server" class="formWizard" href="frmShortListOptions.aspx?tms=101">Shortlist Your Options</a>
+                        </div>
+                        <div id="nav2">
+                        	<span>2</span><a id="a_2" runat="server" class="formWizard" href="frmSetPreferences.aspx?tms=101">Set Your Preferences</a>
+                        </div>
+                        <div  id="nav3">
+                            <span>3</span><a id="a_3" runat="server" class="formWizard" href="frmOptionFormSummary.aspx?tms=101">Option Form Summary</a>
+                        </div> 
+                        <div id="nav4">
+                            <span>4</span><a id="a_4" runat="server" class="formWizard" href="frmConfirmOptionForm.aspx?tms=101">Confirm Your Option Form</a>
+                        </div>
+                    </div>
+                </div>     
+            </div> 
+        </center>
+        <input type="hidden" id="hdnStepID" runat="server" />
+    </cc1:ContentBox>
+    <cc1:ContentBox ID="ContentTable2" runat="server" HeaderText="Import Options from Previous CAP Round">
+        <table class="AppFormTableWithOutBorder">
+            <tr>
+                <td>
+                    <asp:UpdatePanel runat="server" ID="UpdatePanel1">
+                        <ContentTemplate>
+                            <asp:Button id="btnViewInformation" runat="server" Text="View Personal Information & Important Instructions" CssClass="InputButton" BackColor="#5cb85c" OnClientClick="openPopUpBox();" OnClick="btnViewInformation_click" CausesValidation="false"></asp:Button>
+                        </ContentTemplate>
+                    </asp:UpdatePanel>
+                </td>
+            </tr>
+        </table>
+        <asp:UpdatePanel runat="server" ID="upShortListOptions">
+            <ContentTemplate>
+                <table class="AppFormTable">
+                    <tr>
+                        <td style="width: 50%;" align="right">Would you like to Import Options filled by You in Previous CAP Round</td>
+                        <td style="width: 50%;">
+                            <asp:RadioButton ID="rbnYes" runat="server" GroupName="ImportOptions" Text="&nbsp;&nbsp;Yes" AutoPostBack = "true" OnCheckedChanged="ImportOptions_CheckedChanged" />
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            <asp:RadioButton ID="rbnNo" runat="server" GroupName="ImportOptions" Text="&nbsp;&nbsp;No" AutoPostBack = "true" OnCheckedChanged="ImportOptions_CheckedChanged" />
+                            <asp:CustomValidator ID="cvImportOptions" runat="server" ClientValidationFunction="checkImportOptions" Display="None" ErrorMessage="Please Select Import Options from Previous CAP Round Status."></asp:CustomValidator>
+                        </td>
+                    </tr>
+                    <tr id="trOptionsList1" runat="server" visible="false">
+                        <th colspan="2" align="left">List of Options to be Imported</th>
+                    </tr>
+                    <tr id="trOptionsList2" runat="server" visible="false">
+                        <td colspan="2">
+                            <asp:GridView id="gvOptionsList" runat="server" AutoGenerateColumns="False" Width = "100%" CellPadding="5" CssClass = "DataGrid" BorderWidth="1px">
+	                            <Columns>
+		                            <asp:BoundField DataField = "PreferenceNo" HeaderText="Preference Number">
+			                            <HeaderStyle HorizontalAlign="Center" VerticalAlign="middle" Font-Bold = "true" Width="5%" CssClass = "Header" />
+                                        <ItemStyle HorizontalAlign="Center" VerticalAlign="middle" CssClass = "Item" />
+		                            </asp:BoundField>
+		                            <asp:BoundField DataField="InstituteCode" HeaderText="Institute Code">
+			                            <HeaderStyle HorizontalAlign="Center" VerticalAlign="middle" Font-Bold = "true" Width="5%" CssClass = "Header" />
+                                        <ItemStyle HorizontalAlign="Center" VerticalAlign="middle" CssClass = "Item" />
+		                            </asp:BoundField>
+		                            <asp:BoundField DataField="InstituteName" HeaderText="Institute Name" HtmlEncode="false">
+			                            <HeaderStyle HorizontalAlign="Center" VerticalAlign="middle" Font-Bold = "true" Width="38%" CssClass = "Header" />
+                                        <ItemStyle HorizontalAlign="Left" VerticalAlign="middle" CssClass = "Item" />
+		                            </asp:BoundField>
+		                            <asp:BoundField DataField="UniversityName" HeaderText="University Name">
+			                            <HeaderStyle HorizontalAlign="Center" VerticalAlign="middle" Font-Bold = "true" Width="19%" CssClass = "Header" />
+                                        <ItemStyle HorizontalAlign="Center" VerticalAlign="middle" CssClass = "Item" />
+		                            </asp:BoundField>
+		                            <asp:BoundField DataField = "CourseType" HeaderText="SL / HU / OHU">
+			                            <HeaderStyle HorizontalAlign="Center" VerticalAlign="middle" Font-Bold = "true" Width="5%" CssClass = "Header" />
+                                        <ItemStyle HorizontalAlign="Center" VerticalAlign="middle" CssClass = "Item" />
+		                            </asp:BoundField>
+		                            <asp:BoundField DataField="CourseName" HeaderText="Course Name">
+			                            <HeaderStyle HorizontalAlign="Center" VerticalAlign="middle" Font-Bold = "true" Width="18%" CssClass = "Header" />
+                                        <ItemStyle HorizontalAlign="Center" VerticalAlign="middle" CssClass = "Item" />
+		                            </asp:BoundField>
+                                    <asp:BoundField DataField="ChoiceCodeDisplay" HeaderText="Choice Code">
+			                            <HeaderStyle HorizontalAlign="Center" VerticalAlign="middle" Font-Bold = "true" Width="5%" CssClass = "Header" />
+                                        <ItemStyle HorizontalAlign="Center" VerticalAlign="middle" CssClass = "Item" />
+		                            </asp:BoundField>
+	                            </Columns>
+                            </asp:GridView>
+                        </td>
+                    </tr>
+                </table>
+            </ContentTemplate>
+        </asp:UpdatePanel>
+        <table class="AppFormTable">
+            <tr>
+                <td align="center" colspan = "2" style="border-top-width:0px">
+                    <br />
+                    <asp:Button ID="btnProceed" runat="server" Text="Save & Proceed >>>" CssClass="InputButton" OnClick="btnProceed_Click"  />
+                    <asp:ValidationSummary ID="ValidationSummary1" runat="server" ShowMessageBox="True" ShowSummary="False" />
+                    <br /><br />
+                </td>
+            </tr>
+        </table>
+    </cc1:ContentBox>
+    <cc1:ContentBox ID="ContentBox1" runat="server" BoxType = "PopupBox" BackColor="#e7fafe" Height="430px" ScrollBars="Auto" HeaderText="Personal Information & Important Instructions">
+        <asp:UpdatePanel runat="server" ID="UpdatePanel2">
+            <ContentTemplate>
+                <table class="AppFormTable" style="background-color: #e7fafe;">
+                    <tr>
+                        <th colspan="4" align="left">Personal Information</th>
+                    </tr>
+                    <tr>
+                        <td style="width: 20%" align="right">Application ID</td>
+                        <td style="width: 30%"><asp:Label ID="lblApplicationID" runat="server" Font-Bold = "true"></asp:Label></td>
+                        <td style="width: 20%" align="right">Candidate Name</td>
+                        <td style="width: 30%"><asp:Label ID="lblCandidateName" runat="server" Font-Bold = "true"></asp:Label></td>
+                    </tr>
+                    <tr>
+                        <td align="right">Gender</td>
+                        <td><asp:Label ID="lblGender" runat="server" Font-Bold = "true"></asp:Label></td>
+                        <td align="right">Date of Birth</td>
+			            <td><asp:Label  ID="lblDOB" runat="server" Font-Bold = "true"></asp:Label></td>
+                    </tr>
+                    <tr>
+                        <td align="right">Candidature Type</td>
+                        <td><asp:Label ID="lblCandidatureType" runat="server" Font-Bold = "true"></asp:Label></td>
+                        <td align="right">Home University</td>
+		                <td><asp:Label id="lblHomeUniversity" runat="server" Font-Bold = "true"></asp:Label></td>
+		            </tr>
+                    <tr>
+                        <td align="right">Category for Admission</td>
+                        <td><asp:Label id="lblCategoryForAdmission" runat="server" Font-Bold = "true"></asp:Label></td>
+                        <td align="right">Person with Disability</td>
+                        <td><asp:Label id="lblPHType" runat="server" Font-Bold = "true"></asp:Label></td>
+                    </tr>
+                    <tr>
+                        <td align="right">Applied for EWS </td>
+                        <td><asp:Label id="lblAppliedforEWS" runat="server" Font-Bold = "true"></asp:Label></td>
+                        <td align="right">Applied for Orphan </td>
+                        <td><asp:Label id="lblAppliedforOrphan" runat="server" Font-Bold = "true"></asp:Label></td>
+                    </tr>
+                    <tr>
+                        <td align="right">Minority Candidature Type</td>
+                        <td colspan="3"><asp:Label ID="lblMinorityCandidatureType" runat="server" Font-Bold = "true"></asp:Label></td>
+                    </tr>
+                    <tr>
+                        <th colspan="4" align="left">Important Instructions</th>
+                    </tr>
+                    <tr>
+                        <td colspan="4">
+                            <ol class="list-text">
+                                <li><p align = "justify">SL - State Level.</p></li>
+                                <li><p align = "justify">HU - Home University.</p></li>
+                                <li><p align = "justify">OHU - Other than Home University.</p></li>
+                                <asp:Label id="lblChoiceCodeStatus" runat="server"></asp:Label>
+                            </ol>
+                        </td>
+                    </tr>
+                </table>
+            </ContentTemplate>
+        </asp:UpdatePanel>
+    </cc1:ContentBox>
+</asp:Content>
+
+

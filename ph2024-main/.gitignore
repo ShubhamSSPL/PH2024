@@ -1,0 +1,23 @@
+################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/BusinessLayer/bin/Debug
+/BusinessLayer/obj/Debug
+/DataLayer/bin/Debug
+/DataLayer/obj/Debug
+/EntityModel/bin/Debug
+/EntityModel/obj/Debug
+/Pharmacy2024/bin
+/Pharmacy2024/obj/Debug
+/BusinessLayer/bin/Release
+/BusinessLayer/obj/Release
+/DataLayer/bin/Release
+/DataLayer/obj/Release
+/EntityModel/bin/Release
+/EntityModel/obj/Release
+/Pharmacy2024/obj/Release
+/Pharmacy2025/bin
+/Pharmacy2025/obj/Debug
+/Pharmacy2025/obj/Release

@@ -1,0 +1,138 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPages/DynamicMasterPageWithOutLeftMenu.Master" AutoEventWireup="true" CodeBehind="frmUnlockOptionForm.aspx.cs" Inherits="Pharmacy2024.CandidateModuleCAPRound1.frmUnlockOptionForm" %>
+<%@ Register Assembly="Synthesys.Controls.ContentBox" Namespace="Synthesys.Controls" TagPrefix="cc1" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="rightContainer" runat="Server">
+    <script src="../Scripts/jquery-2.1.3.min.js" type="text/javascript" language="javascript"></script>
+    <script src="../Scripts/jquery-2.1.3.min.js" type="text/javascript" language="javascript"></script>
+
+    <script language="javascript" type="text/javascript">
+        window.history.forward(1);
+        function clickButton(e, buttonid) {
+            var evt = e ? e : window.event;
+            var bt = document.getElementById(buttonid);
+            if (bt) {
+                if (evt.keyCode == 13) {
+                    bt.click();
+                    return false;
+                }
+            }
+        }
+         
+    </script>
+    <script language="javascript" type="text/javascript">
+
+        function numbersonly(e) {
+            var unicode = e.charCode ? e.charCode : e.keyCode
+            if (unicode != 8) {
+                if (unicode < 48 || unicode > 57) {
+                    return false
+                }
+            }
+        }
+        function showRetryTiemout() {
+            var rCounter = 45
+            var timerInterval = setInterval(function () {
+                document.getElementById("rightContainer_cbPassword_btnCall").style.backgroundColor = "#1abc9c";
+                document.getElementById("rightContainer_cbPassword_btnCall").disabled = true;
+                document.getElementById("rightContainer_cbPassword_btnCall").value = "Retry in " + rCounter + " Second";
+
+                if (rCounter == 0) {
+                    rCounter = 45;
+                }
+                rCounter--;
+            }, 1000);
+            setTimeout(function () {
+                document.getElementById("rightContainer_cbPassword_btnCall").style.backgroundColor = "#2966C0";
+                document.getElementById("rightContainer_cbPassword_btnCall").disabled = false;
+                document.getElementById("rightContainer_cbPassword_btnCall").value = "Retry on Call";
+                document.getElementById("rightContainer_cbPassword_rfvOneTimePassword").enabled = false;
+              //  document.getElementById("rightContainer_cbPassword_revOneTimePassword").enabled = false;
+
+                clearInterval(timerInterval);
+            }, 45000);
+        }
+        function showRetryTiemouts() {
+
+            var rCounter = 45
+            var timerInterval = setInterval(function () {
+                document.getElementById("rightContainer_cbPassword_btnCall").style.backgroundColor = "#1abc9c";
+                document.getElementById("rightContainer_cbPassword_btnCall").disabled = true;
+                document.getElementById("rightContainer_cbPassword_btnCall").value = "Retry in " + rCounter + " Second";
+
+                if (rCounter == 0) {
+                    rCounter = 45;
+                }
+                rCounter--;
+            }, 1000);
+            setTimeout(function () {
+                document.getElementById("rightContainer_cbPassword_btnCall").style.backgroundColor = "#2966C0";
+                document.getElementById("rightContainer_cbPassword_btnCall").disabled = false;
+                document.getElementById("rightContainer_cbPassword_btnCall").value = "Retry on Call";
+                document.getElementById("rightContainer_cbPassword_rfvOneTimePassword").enabled = false;
+//                document.getElementById("rightContainer_cbPassword_revOneTimePassword").enabled = false;
+                clearInterval(timerInterval);
+            }, 45000);
+        }
+        function load() {
+            Sys.WebForms.PageRequestManager.getInstance().add_endRequest(EndRequestHandler);
+        }
+        function EndRequestHandler() {
+            if (document.getElementById("rightContainer_cbPassword_tblOtp") != null) {
+                showRetryTiemout();
+            }
+        }
+        window.onload = load;
+    </script>
+    
+    <cc1:ContentBox ID="cbPassword" runat="server" HeaderText="Unconfirm Option Form">
+        <table class="AppFormTableWithOutBorder">
+            <tr>
+                <td colspan="3">
+                    <p align="justify">
+                        <font color="red" size="2">
+                        The seat matrix for B.Pharmacy & Post Graduate Pharm.D is declared at 6.00 PM on 7 july 2019, these Candidate who have already Confirmed their Option before 6:00 PM on 7 july 2019 are provided one time edit facility to edit and reconfirm their option [if they wish]
+                            </font>
+                            <br />
+                            <br />
+                           
+                    </p>
+                </td>
+            </tr>
+        </table>
+  
+                <table id="tblOtp" class="AppFormTable" runat="server">
+                    <tr id="trMobileNo" runat="server" Visible="False">
+                        <td colspan="4" align="center">
+                          OTP has been sent your Mobile No :   <asp:Label ID="lblMaskMobileno" runat="server" Font-Bold="true"></asp:Label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right" style="width: 50%">
+                            Enter One Time Password (OTP)
+                        </td>
+                        <td colspan="2">
+                            <asp:TextBox ID="txtOneTimePassword" runat="server" MaxLength="6" onKeyPress="return numbersonly(event)"
+                                autocomplete="off"> </asp:TextBox>
+                            <font color="red"><sup>*</sup></font>
+                            <asp:RequiredFieldValidator ID="rfvOneTimePassword" runat="server" ControlToValidate="txtOneTimePassword"
+                                Display="None" ErrorMessage="Please Enter One Time Password (OTP)." ValidationGroup="otp"></asp:RequiredFieldValidator>
+                            <%--<asp:RegularExpressionValidator ID="revOneTimePassword" runat="server" ControlToValidate="txtOneTimePassword"
+                                Display="None" ErrorMessage="One Time Password (OTP) Should be of 6 Digits."
+                                ValidationExpression="\d{6}" ValidationGroup="otp"></asp:RegularExpressionValidator>--%>
+                            <asp:Button ID="btnCall" runat="server" CssClass="InputButton" OnClick="btnCall_Click"
+                                Text="Retry on Call" Visible="false" ValidationGroup="call" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" colspan="3">
+                            <br />
+                            <br />
+                            <asp:Button ID="btnVerifyOtp" runat="server" Text="Unconfirm Option Form"
+                                CssClass="InputButton" OnClick="btnVerifyOtp_Click" ValidationGroup="otp" Style="font-size: medium;
+                                height: 40px; font-weight: bold; background-color: red;" />
+                            <asp:ValidationSummary ID="ValidationSummary2" runat="server" ShowSummary="False"
+                                ShowMessageBox="True" ValidationGroup="otp" />
+                        </td>
+                    </tr>
+                </table>
+    </cc1:ContentBox>
+</asp:Content>
